@@ -1,0 +1,16 @@
+model:
+  name: "indobert-base-p2"
+  max_length: 128
+  batch_size: 16
+  num_epochs: 3
+
+azure:
+  speech_recognition_language: "id-ID"
+  speech_synthesis_language: "id-ID"
+  speech_synthesis_voice: "id-ID-GadisNeural"
+
+training:
+  learning_rate: 2e-5
+  weight_decay: 0.01
+  eval_steps: 100
+  save_total_limit: 2

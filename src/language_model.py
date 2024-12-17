@@ -1,9 +1,13 @@
 # src/language_model.py
 import torch
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import numpy as np
+import logging
 
-class IndoBERTProcessor:
+logger = logging.getLogger(__name__)
+
+
+class IndoBERTFashionProcessor:
     def __init__(self, model_path):
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
         self.model = AutoModelForSequenceClassification.from_pretrained(model_path)
@@ -31,85 +35,111 @@ class IndoBERTProcessor:
             16: "jackets",
             17: "shoes",
             18: "accessories",
-            19: "other"
+            19: "other",
         }
 
-        # Load sentiment analysis model
-        self.sentiment_tokenizer = AutoTokenizer.from_pretrained("indobert-base-p2")
-        self.sentiment_model = AutoModelForSequenceClassification.from_pretrained("indobert-base-p2")
-        self.sentiment_model.to(self.device)
+        self.responses = {
+            "formal_pria": [
+                "Untuk acara formal, saya rekomendasikan setelan jas navy blue dengan kemeja putih.",
+                "Kenakan kemeja putih dengan celana bahan hitam dan sepatu pantofel.",
+                "Kombinasikan blazer dengan kemeja polos dan celana bahan.",
+            ],
+            "formal_wanita": [
+                "Untuk acara formal, saya sarankan blazer dengan rok pensil atau celana bahan.",
+                "Kenakan blus formal dengan rok atau celana bahan.",
+                "Padukan blazer dengan dress formal dan sepatu hak.",
+            ],
+            "business_meeting": [
+                "Untuk meeting, kenakan setelan jas dengan dasi dan sepatu formal.",
+                "Padukan blazer navy dengan kemeja light blue dan celana bahan.",
+                "Kenakan kemeja lengan panjang dengan celana bahan dan sepatu formal.",
+            ],
+            "kasual_pria": [
+                "Untuk kasual, coba kenakan polo shirt dengan chino pants.",
+                "Kombinasikan kemeja casual dengan jeans dan sneakers.",
+                "Kenakan t-shirt dengan celana pendek dan sepatu casual.",
+            ],
+            "kasual_wanita": [
+                "Untuk kasual, kenakan blus dengan jeans dan flat shoes.",
+                "Padukan dress casual dengan cardigan dan sneakers.",
+                "Kombinasikan kaos dengan rok A-line dan sepatu nyaman.",
+            ],
+            "wedding": [
+                "Untuk pernikahan, saya sarankan dress formal dengan warna pastel dan sepatu hak tinggi.",
+                "Kenakan setelan jas dengan dasi dan sepatu formal untuk pernikahan.",
+                "Padukan gaun panjang dengan clutch dan perhiasan minimalis.",
+            ],
+            "party": [
+                "Untuk pesta, coba kenakan dress berwarna cerah dengan aksesoris yang mencolok.",
+                "Kenakan kemeja kasual dengan celana jeans dan sepatu sneakers untuk pesta santai.",
+                "Padukan blus berkilau dengan rok atau celana hitam untuk pesta malam.",
+            ],
+            "other": [
+                "Untuk acara tersebut, saya sarankan pakaian yang rapi dan nyaman seperti kemeja dengan celana bahan.",
+                "Kenakan pakaian yang sesuai dengan formalitas acara, seperti blazer dengan kemeja dan celana bahan.",
+                "Padukan atasan dan bawahan yang senada dengan sepatu yang sesuai acara.",
+            ],
+        }
+
+    def classify_intent(self, text):
+        try:
+            inputs = self.preprocess_text(text)
+            with torch.no_grad():
+                outputs = self.model(**inputs)
+                predictions = torch.softmax(outputs.logits, dim=1)
+                category_id = torch.argmax(predictions, dim=1).item()
+                confidence = predictions[0][category_id].item()
+
+                # Debug print
+                print(
+                    f"Detected intent: {self.categories.get(category_id)} (confidence: {confidence:.2f})"
+                )
+
+                return self.categories.get(category_id, "other")
+        except Exception as e:
+            logger.error(f"Error in intent classification: {str(e)}")
+            return "other"
 
     def preprocess_text(self, text):
-        """Preprocess text for IndoBERT"""
-        # Tokenize the text
         encoding = self.tokenizer(
             text,
             add_special_tokens=True,
             max_length=128,
-            padding='max_length',
+            padding="max_length",
             truncation=True,
-            return_tensors='pt'
+            return_tensors="pt",
         )
-
         return encoding.to(self.device)
 
-    def classify_intent(self, text):
-        """Classify user intent using IndoBERT"""
-        inputs = self.preprocess_text(text)
-        with torch.no_grad():
-            outputs = self.model(**inputs)
-            predictions = torch.softmax(outputs.logits, dim=1)
-            category_id = torch.argmax(predictions, dim=1).item()
-        return self.categories.get(category_id, "other")
-
     def analyze_sentiment(self, text):
-        """Analyze sentiment of user input"""
-        inputs = self.sentiment_tokenizer(
-            text,
-            return_tensors="pt",
-            padding=True,
-            truncation=True,
-            max_length=128
-        ).to(self.device)
-
-        with torch.no_grad():
-            outputs = self.sentiment_model(**inputs)
-            sentiment_scores = torch.softmax(outputs.logits, dim=1)
-            sentiment = torch.argmax(sentiment_scores, dim=1).item()
-
-        return sentiment
+        # For simplicity, return neutral sentiment
+        return 1
 
     def generate_response(self, text, intent, sentiment):
-        """Generate contextual response based on intent and sentiment"""
-        responses = {
-            "formal_pria": {
-                "positive": ["Bagus sekali! Untuk acara formal, saya rekomendasikan setelan jas navy blue dengan kemeja putih."],
-                "neutral": ["Untuk acara formal, Anda bisa mengenakan kemeja lengan panjang dengan celana bahan."],
-                "negative": ["Jangan khawatir, saya akan membantu Anda memilih pakaian formal yang nyaman."]
-            },
-            "formal_wanita": {
-                "positive": ["Excellent! Untuk acara formal, saya rekomendasikan blazer dengan rok pensil atau celana bahan."],
-                "neutral": ["Untuk acara formal, Anda bisa mengenakan blus formal dengan rok atau celana bahan."],
-                "negative": ["Jangan khawatir, kita akan temukan pakaian formal yang membuat Anda nyaman."]
-            },
-            "wedding": {
-                "positive": ["Untuk pernikahan, saya sarankan dress formal dengan warna pastel dan sepatu hak tinggi."],
-                "neutral": ["Setelan jas dengan dasi dan sepatu formal akan cocok untuk pernikahan."],
-                "negative": ["Mari kita cari pakaian yang sesuai untuk pernikahan."]
-            },
-            "hot_weather": {
-                "positive": ["Untuk cuaca panas, coba kenakan kaos katun dengan celana pendek dan sandal."],
-                "neutral": ["Dress ringan dengan bahan yang menyerap keringat akan nyaman untuk cuaca panas."],
-                "negative": ["Jangan khawatir, kita akan temukan pakaian yang nyaman untuk cuaca panas."]
-            },
-        }
+        try:
+            # Debug print
+            print(f"Generating response for intent: {intent}")
 
-        sentiment_map = {0: "negative", 1: "neutral", 2: "positive"}
-        sentiment_label = sentiment_map[sentiment]
+            # Check if we have specific responses for this intent
+            if intent in self.responses:
+                return np.random.choice(self.responses[intent])
 
-        if intent in responses:
-            return np.random.choice(responses[intent][sentiment_label])
-        else:
-            return "Maaf, bisakah Anda menjelaskan lebih detail tentang jenis pakaian yang Anda cari?"
+            # Map similar intents
+            intent_mapping = {
+                "seminar": "formal_pria",
+                "meeting": "business_meeting",
+                "presentasi": "business_meeting",
+                "interview": "formal_pria",
+            }
 
+            # Check for keywords in the text and map to appropriate intent
+            for keyword, mapped_intent in intent_mapping.items():
+                if keyword in text.lower() and mapped_intent in self.responses:
+                    return np.random.choice(self.responses[mapped_intent])
 
+            # If no specific response is found, return a default response
+            return np.random.choice(self.responses["other"])
+
+        except Exception as e:
+            logger.error(f"Error generating response: {str(e)}")
+            return "Maaf, bisakah Anda mengulangi pertanyaan Anda?"

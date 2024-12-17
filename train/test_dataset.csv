@@ -1,9 +1,115 @@
 query,response,label
-Pakaian apa yang cocok untuk pesta malam?,"Untuk pesta malam, kenakan dress hitam dengan aksesoris berkilau dan sepatu hak tinggi.",5
-Rekomendasi pakaian untuk cuaca hujan?,Jaket tahan air dengan celana panjang dan sepatu boot akan cocok untuk cuaca hujan.,10
-Sepatu apa yang cocok untuk acara formal?,"Untuk acara formal, kenakan sepatu pantofel hitam yang elegan.",0
-Apa yang harus saya pakai untuk pernikahan?,"Untuk pernikahan, saya sarankan dress formal dengan warna pastel dan sepatu hak tinggi.",4
+Bagaimana cara berpakaian untuk cuaca semi?,"Untuk cuaca semi, kombinasikan blus dengan rok midi dan flat shoes",14
+"Saya mau pergi ke interview kerja, sebaiknya pakai apa ya?","Untuk interview kerja, kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam",0
+Apa yang cocok untuk jalan-jalan santai?,"Untuk jalan-jalan santai, kombinasikan polo shirt dengan celana pendek dan sandal",2
+Outfit yang bagus untuk suhu dingin?,"Untuk suhu dingin, padukan jaket tebal dengan syal dan boots",9
+Apa yang cocok untuk awal musim gugur?,"Untuk awal musim gugur, padukan jaket kulit dengan jeans dan boots",15
+Rekomendasi pakaian untuk cuaca terik?,"Untuk cuaca terik, pilih pakaian berwarna cerah dan berbahan ringan",8
+Outfit yang bagus untuk mall wanita?,"Untuk mall wanita, kombinasikan blus casual dengan celana jeans dan sandal",3
+"Saya mau pergi ke presentasi perusahaan, sebaiknya pakai apa ya?","Untuk presentasi perusahaan, gunakan setelan jas dengan dasi dan sepatu pantofel mengkilap",0
+Pakaian apa yang cocok untuk interview kerja wanita?,"Untuk interview kerja wanita, gunakan setelan blazer dengan rok midi dan sepatu formal",1
+"Mau ke acara pemberkatan, enaknya pakai baju apa?","Untuk acara pemberkatan, kombinasikan setelan jas formal dengan dasi dan sepatu pantofel mengkilap",4
+Apa yang cocok untuk cuaca hujan?,"Untuk cuaca hujan, kenakan jas hujan dengan sepatu anti air",10
+Outfit yang bagus untuk pernikahan?,"Untuk pernikahan, kombinasikan setelan jas formal dengan dasi dan sepatu pantofel mengkilap",4
+Bagaimana cara berpakaian untuk suasana semi?,"Untuk suasana semi, padukan kemeja tipis dengan celana chino",14
+Apa yang cocok untuk party malam?,"Untuk party malam, padukan kemeja fancy dengan celana formal",5
+Outfit yang bagus untuk musim semi?,"Untuk musim semi, padukan kemeja tipis dengan celana chino",14
+Bagaimana cara berpakaian untuk interview kerja wanita?,"Untuk interview kerja wanita, kenakan blazer dengan rok pensil dan sepatu heels",1
+Baju yang tepat untuk pernikahan?,"Untuk pernikahan, kombinasikan setelan jas formal dengan dasi dan sepatu pantofel mengkilap",4
+Fashion yang cocok untuk jalan santai?,"Untuk jalan santai, kombinasikan polo shirt dengan celana pendek dan sandal",2
+Baju yang tepat untuk presentasi bisnis wanita?,"Untuk presentasi bisnis wanita, padukan blus formal dengan celana bahan dan flat shoes formal",1
+Style yang bagus untuk acara pemberkatan apa ya?,"Untuk acara pemberkatan, padukan kebaya modern dengan rok panjang dan selop",4
+Bagaimana cara berpakaian untuk interview kerja?,"Untuk interview kerja, kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam",0
+Rekomendasi pakaian untuk hari hujan?,"Untuk hari hujan, padukan jaket waterproof dengan celana panjang dan boots",10
+Fashion yang cocok untuk musim hujan?,"Untuk musim hujan, kenakan sweater tebal dengan celana panjang",9
+Outfit yang bagus untuk hujan?,"Untuk hujan, kombinasikan raincoat dengan celana panjang dan sepatu tahan air",10
+Rekomendasi pakaian untuk nikahan teman?,"Untuk nikahan teman, padukan kebaya modern dengan rok panjang dan selop",4
+Rekomendasi pakaian untuk rapat formal?,"Untuk rapat formal, padukan kemeja lengan panjang putih dengan celana bahan hitam dan sepatu formal",0
+Apa yang cocok untuk suasana gugur?,"Untuk suasana gugur, kombinasikan turtleneck dengan coat ringan",15
+Rekomendasi pakaian untuk cuaca gugur?,"Untuk cuaca gugur, padukan jaket kulit dengan jeans dan boots",15
+Rekomendasi pakaian untuk resepsi nikah?,"Untuk resepsi nikah, kombinasikan setelan jas formal dengan dasi dan sepatu pantofel mengkilap",4
+Fashion yang cocok untuk seminar bisnis?,"Untuk seminar bisnis, kombinasikan blazer gelap dengan kemeja light blue dan celana bahan",0
+"Saya mau pergi ke party malam, sebaiknya pakai apa ya?","Untuk party malam, gunakan outfit yang eye-catching dan nyaman untuk berpesta",5
+Baju yang tepat untuk musim hujan?,"Untuk musim hujan, gunakan pakaian berlapis dengan mantel hangat",9
+Style yang bagus untuk awal musim semi apa ya?,"Untuk awal musim semi, kenakan dress floral dengan cardigan ringan",14
+Fashion yang cocok untuk suasana semi?,"Untuk suasana semi, kombinasikan blus dengan rok midi dan flat shoes",14
+Bagaimana cara berpakaian untuk pesta pernikahan?,"Untuk pesta pernikahan, gunakan dress formal dengan warna pastel dan sepatu hak tinggi",4
+"Mau ke sidang, enaknya pakai baju apa?","Untuk sidang, gunakan setelan jas dengan dasi dan sepatu pantofel mengkilap",0
 Apa yang cocok untuk musim panas?,"Untuk musim panas, coba kenakan kaos ringan dengan celana pendek dan sandal.",8
-Rekomendasi pakaian untuk pernikahan?,Setelan jas dengan dasi dan sepatu formal akan cocok untuk pernikahan.,4
-Rekomendasi pakaian untuk musim semi?,Dress dengan motif bunga dan jaket ringan akan cocok untuk musim semi.,14
+Outfit yang bagus untuk hangout wanita?,"Untuk hangout wanita, padukan kaos dengan rok A-line dan sneakers",3
 Apa yang harus saya pakai saat hujan?,"Untuk cuaca hujan, kenakan jas hujan dengan sepatu tahan air dan payung.",10
+"Mau ke seminar wanita, enaknya pakai baju apa?","Untuk seminar wanita, kenakan blazer dengan rok pensil dan sepatu heels",1
+Outfit yang bagus untuk acara formal wanita?,"Untuk acara formal wanita, kombinasikan dress formal dengan blazer dan sepatu heels medium",1
+Style yang bagus untuk siang hari panas apa ya?,"Untuk siang hari panas, pilih pakaian berwarna cerah dan berbahan ringan",8
+Rekomendasi pakaian untuk suasana panas?,"Untuk suasana panas, kenakan pakaian berbahan katun yang menyerap keringat",8
+Rekomendasi pakaian untuk hangout wanita?,"Untuk hangout wanita, gunakan t-shirt dengan cullotes dan sepatu flat",3
+Style yang bagus untuk main ke mall apa ya?,"Untuk main ke mall, kenakan kaos dengan jeans dan sneakers casual",2
+Pakaian apa yang cocok untuk presentasi bisnis wanita?,"Untuk presentasi bisnis wanita, kenakan blazer dengan rok pensil dan sepatu heels",1
+"Mau ke cuaca gugur, enaknya pakai baju apa?","Untuk cuaca gugur, kombinasikan turtleneck dengan coat ringan",15
+Fashion yang cocok untuk suasana gugur?,"Untuk suasana gugur, kenakan sweater rajut dengan celana panjang",15
+Style yang bagus untuk weekend casual apa ya?,"Untuk weekend casual, kombinasikan polo shirt dengan celana pendek dan sandal",2
+Bagaimana cara berpakaian untuk acara gathering?,"Untuk acara gathering, padukan kemeja fancy dengan celana formal",5
+Apa yang cocok untuk gerimis?,"Untuk gerimis, kombinasikan raincoat dengan celana panjang dan sepatu tahan air",10
+"Saya mau pergi ke sidang, sebaiknya pakai apa ya?","Untuk sidang, gunakan setelan jas dengan dasi dan sepatu pantofel mengkilap",0
+Pakaian apa yang cocok untuk hangout?,"Untuk hangout, kenakan kaos dengan jeans dan sneakers casual",2
+Outfit yang bagus untuk nongkrong?,"Untuk nongkrong, gunakan t-shirt dengan celana cargo dan sepatu casual",2
+Rekomendasi pakaian untuk pesta dansa?,"Untuk pesta dansa, padukan kemeja fancy dengan celana formal",5
+Baju yang tepat untuk cuaca sejuk?,"Untuk cuaca sejuk, gunakan pakaian berlapis dengan mantel hangat",9
+"Saya mau pergi ke nikahan teman, sebaiknya pakai apa ya?","Untuk nikahan teman, padukan kebaya modern dengan rok panjang dan selop",4
+Baju yang tepat untuk seminar wanita?,"Untuk seminar wanita, kombinasikan dress formal dengan blazer dan sepatu heels medium",1
+Baju yang tepat untuk sidang?,"Untuk sidang, gunakan setelan jas dengan dasi dan sepatu pantofel mengkilap",0
+Rekomendasi pakaian untuk suasana semi?,"Untuk suasana semi, kombinasikan blus dengan rok midi dan flat shoes",14
+Rekomendasi pakaian untuk seminar bisnis?,"Untuk seminar bisnis, gunakan setelan jas dengan dasi dan sepatu pantofel mengkilap",0
+Apa yang cocok untuk cuaca panas?,"Untuk cuaca panas, coba kenakan kaos katun dengan celana pendek dan sandal.",8
+Style yang bagus untuk awal musim gugur apa ya?,"Untuk awal musim gugur, padukan jaket kulit dengan jeans dan boots",15
+Style yang bagus untuk musim dingin apa ya?,"Untuk musim dingin, kombinasikan sweater rajut dengan celana wool",9
+"Mau ke jalan-jalan santai wanita, enaknya pakai baju apa?","Untuk jalan-jalan santai wanita, kenakan dress casual dengan flat shoes nyaman",3
+Style yang bagus untuk cuaca semi apa ya?,"Untuk cuaca semi, gunakan pakaian berlapis yang mudah dilepas",14
+Outfit yang bagus untuk presentasi bisnis wanita?,"Untuk presentasi bisnis wanita, kenakan blazer dengan rok pensil dan sepatu heels",1
+Apa yang cocok untuk seminar bisnis?,"Untuk seminar bisnis, kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam",0
+Style yang bagus untuk hangout wanita apa ya?,"Untuk hangout wanita, kombinasikan blus casual dengan celana jeans dan sandal",3
+Fashion yang cocok untuk cuaca hujan?,"Untuk cuaca hujan, padukan jaket waterproof dengan celana panjang dan boots",10
+Outfit yang bagus untuk musim kemarau?,"Untuk musim kemarau, kenakan pakaian berbahan katun yang menyerap keringat",8
+Rekomendasi pakaian untuk musim panas?,Dress musim panas dengan bahan yang menyerap keringat akan nyaman.,8
+"Saya mau pergi ke musim dingin, sebaiknya pakai apa ya?","Untuk musim dingin, padukan jaket tebal dengan syal dan boots",9
+Pakaian apa yang cocok untuk gerimis?,"Untuk gerimis, gunakan pakaian yang cepat kering dengan sepatu boots anti air",10
+Bagaimana cara berpakaian untuk party malam?,"Untuk party malam, kenakan dress party dengan aksesoris berkilau",5
+Outfit yang bagus untuk cuaca panas?,"Untuk cuaca panas, pilih pakaian berwarna cerah dan berbahan ringan",8
+Pakaian apa yang cocok untuk pesta dansa?,"Untuk pesta dansa, kenakan dress party dengan aksesoris berkilau",5
+Fashion yang cocok untuk nikahan teman?,"Untuk nikahan teman, kombinasikan setelan jas formal dengan dasi dan sepatu pantofel mengkilap",4
+"Saya mau pergi ke weekend casual, sebaiknya pakai apa ya?","Untuk weekend casual, gunakan t-shirt dengan celana cargo dan sepatu casual",2
+Rekomendasi pakaian untuk musim hujan?,"Untuk musim hujan, padukan jaket tebal dengan syal dan boots",9
+Apa yang cocok untuk nongkrong?,"Untuk nongkrong, padukan kemeja casual dengan chino pants dan sepatu sneakers",2
+Pakaian apa yang cocok untuk weekend casual wanita?,"Untuk weekend casual wanita, kombinasikan blus casual dengan celana jeans dan sandal",3
+Pakaian apa yang cocok untuk rapat formal wanita?,"Untuk rapat formal wanita, gunakan setelan blazer dengan rok midi dan sepatu formal",1
+"Saya mau pergi ke acara pemberkatan, sebaiknya pakai apa ya?","Untuk acara pemberkatan, padukan kebaya modern dengan rok panjang dan selop",4
+Rekomendasi pakaian untuk mall wanita?,"Untuk mall wanita, gunakan t-shirt dengan cullotes dan sepatu flat",3
+Style yang bagus untuk wedding party apa ya?,"Untuk wedding party, kenakan gaun panjang dengan heels dan clutch bag",4
+Rekomendasi pakaian untuk cuaca berangin?,Sweater dengan jaket windbreaker dan celana jeans akan nyaman untuk cuaca berangin.,11
+Style yang bagus untuk angin kencang apa ya?,"Untuk angin kencang, kenakan jaket windbreaker dengan celana panjang",11
+Pakaian apa yang cocok untuk cuaca semi?,"Untuk cuaca semi, gunakan pakaian berlapis yang mudah dilepas",14
+Bagaimana cara berpakaian untuk musim semi?,"Untuk musim semi, gunakan pakaian berlapis yang mudah dilepas",14
+Style yang bagus untuk interview kerja wanita apa ya?,"Untuk interview kerja wanita, gunakan setelan blazer dengan rok midi dan sepatu formal",1
+Bagaimana cara berpakaian untuk musim hujan?,"Untuk musim hujan, gunakan pakaian berlapis dengan mantel hangat",9
+Outfit yang bagus untuk cuaca terik?,"Untuk cuaca terik, gunakan baju berbahan ringan dan breathable",8
+Outfit yang bagus untuk hari berangin?,"Untuk hari berangin, gunakan pakaian berlapis dengan jaket tahan angin",11
+Pakaian apa yang cocok untuk suasana panas?,"Untuk suasana panas, pilih pakaian berwarna cerah dan berbahan ringan",8
+Bagaimana cara berpakaian untuk seminar wanita?,"Untuk seminar wanita, kombinasikan dress formal dengan blazer dan sepatu heels medium",1
+Pakaian apa yang cocok untuk awal musim gugur?,"Untuk awal musim gugur, kombinasikan turtleneck dengan coat ringan",15
+"Saya mau pergi ke weekend casual wanita, sebaiknya pakai apa ya?","Untuk weekend casual wanita, padukan kaos dengan rok A-line dan sneakers",3
+Apa yang cocok untuk mall wanita?,"Untuk mall wanita, padukan kaos dengan rok A-line dan sneakers",3
+"Mau ke nongkrong, enaknya pakai baju apa?","Untuk nongkrong, padukan kemeja casual dengan chino pants dan sepatu sneakers",2
+"Mau ke hari yang terik, enaknya pakai baju apa?","Untuk hari yang terik, kenakan pakaian berbahan katun yang menyerap keringat",8
+Bagaimana cara berpakaian untuk weekend casual?,"Untuk weekend casual, padukan kemeja casual dengan chino pants dan sepatu sneakers",2
+"Saya mau pergi ke konferensi bisnis, sebaiknya pakai apa ya?","Untuk konferensi bisnis, gunakan setelan jas dengan dasi dan sepatu pantofel mengkilap",0
+"Mau ke suhu dingin, enaknya pakai baju apa?","Untuk suhu dingin, kombinasikan sweater rajut dengan celana wool",9
+Apa yang cocok untuk wedding party?,"Untuk wedding party, padukan kebaya modern dengan rok panjang dan selop",4
+Apa yang cocok untuk musim angin?,"Untuk musim angin, kenakan jaket windbreaker dengan celana panjang",11
+"Saya mau pergi ke cuaca dingin, sebaiknya pakai apa ya?","Untuk cuaca dingin, kenakan sweater tebal dengan celana panjang",9
+Bagaimana cara berpakaian untuk jalan-jalan santai?,"Untuk jalan-jalan santai, kombinasikan polo shirt dengan celana pendek dan sandal",2
+Bagaimana cara berpakaian untuk cuaca berangin?,"Untuk cuaca berangin, padukan sweater dengan celana yang pas dan tidak berkibar",11
+Bagaimana cara berpakaian untuk mall wanita?,"Untuk mall wanita, kenakan dress casual dengan flat shoes nyaman",3
+Style yang bagus untuk seminar bisnis apa ya?,"Untuk seminar bisnis, kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam",0
+Apa yang cocok untuk pesta pernikahan?,"Untuk pesta pernikahan, padukan kebaya modern dengan rok panjang dan selop",4
+"Saya mau pergi ke hari hujan, sebaiknya pakai apa ya?","Untuk hari hujan, padukan jaket waterproof dengan celana panjang dan boots",10
+Bagaimana cara berpakaian untuk cuaca panas?,"Untuk cuaca panas, padukan kaos lengan pendek dengan celana pendek",8
