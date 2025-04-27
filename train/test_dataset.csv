@@ -1,115 +1,239 @@
-query,response,label
-Bagaimana cara berpakaian untuk cuaca semi?,"Untuk cuaca semi, kombinasikan blus dengan rok midi dan flat shoes",14
-"Saya mau pergi ke interview kerja, sebaiknya pakai apa ya?","Untuk interview kerja, kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam",0
-Apa yang cocok untuk jalan-jalan santai?,"Untuk jalan-jalan santai, kombinasikan polo shirt dengan celana pendek dan sandal",2
-Outfit yang bagus untuk suhu dingin?,"Untuk suhu dingin, padukan jaket tebal dengan syal dan boots",9
-Apa yang cocok untuk awal musim gugur?,"Untuk awal musim gugur, padukan jaket kulit dengan jeans dan boots",15
-Rekomendasi pakaian untuk cuaca terik?,"Untuk cuaca terik, pilih pakaian berwarna cerah dan berbahan ringan",8
-Outfit yang bagus untuk mall wanita?,"Untuk mall wanita, kombinasikan blus casual dengan celana jeans dan sandal",3
-"Saya mau pergi ke presentasi perusahaan, sebaiknya pakai apa ya?","Untuk presentasi perusahaan, gunakan setelan jas dengan dasi dan sepatu pantofel mengkilap",0
-Pakaian apa yang cocok untuk interview kerja wanita?,"Untuk interview kerja wanita, gunakan setelan blazer dengan rok midi dan sepatu formal",1
-"Mau ke acara pemberkatan, enaknya pakai baju apa?","Untuk acara pemberkatan, kombinasikan setelan jas formal dengan dasi dan sepatu pantofel mengkilap",4
-Apa yang cocok untuk cuaca hujan?,"Untuk cuaca hujan, kenakan jas hujan dengan sepatu anti air",10
-Outfit yang bagus untuk pernikahan?,"Untuk pernikahan, kombinasikan setelan jas formal dengan dasi dan sepatu pantofel mengkilap",4
-Bagaimana cara berpakaian untuk suasana semi?,"Untuk suasana semi, padukan kemeja tipis dengan celana chino",14
-Apa yang cocok untuk party malam?,"Untuk party malam, padukan kemeja fancy dengan celana formal",5
-Outfit yang bagus untuk musim semi?,"Untuk musim semi, padukan kemeja tipis dengan celana chino",14
-Bagaimana cara berpakaian untuk interview kerja wanita?,"Untuk interview kerja wanita, kenakan blazer dengan rok pensil dan sepatu heels",1
-Baju yang tepat untuk pernikahan?,"Untuk pernikahan, kombinasikan setelan jas formal dengan dasi dan sepatu pantofel mengkilap",4
-Fashion yang cocok untuk jalan santai?,"Untuk jalan santai, kombinasikan polo shirt dengan celana pendek dan sandal",2
-Baju yang tepat untuk presentasi bisnis wanita?,"Untuk presentasi bisnis wanita, padukan blus formal dengan celana bahan dan flat shoes formal",1
-Style yang bagus untuk acara pemberkatan apa ya?,"Untuk acara pemberkatan, padukan kebaya modern dengan rok panjang dan selop",4
-Bagaimana cara berpakaian untuk interview kerja?,"Untuk interview kerja, kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam",0
-Rekomendasi pakaian untuk hari hujan?,"Untuk hari hujan, padukan jaket waterproof dengan celana panjang dan boots",10
-Fashion yang cocok untuk musim hujan?,"Untuk musim hujan, kenakan sweater tebal dengan celana panjang",9
-Outfit yang bagus untuk hujan?,"Untuk hujan, kombinasikan raincoat dengan celana panjang dan sepatu tahan air",10
-Rekomendasi pakaian untuk nikahan teman?,"Untuk nikahan teman, padukan kebaya modern dengan rok panjang dan selop",4
-Rekomendasi pakaian untuk rapat formal?,"Untuk rapat formal, padukan kemeja lengan panjang putih dengan celana bahan hitam dan sepatu formal",0
-Apa yang cocok untuk suasana gugur?,"Untuk suasana gugur, kombinasikan turtleneck dengan coat ringan",15
-Rekomendasi pakaian untuk cuaca gugur?,"Untuk cuaca gugur, padukan jaket kulit dengan jeans dan boots",15
-Rekomendasi pakaian untuk resepsi nikah?,"Untuk resepsi nikah, kombinasikan setelan jas formal dengan dasi dan sepatu pantofel mengkilap",4
-Fashion yang cocok untuk seminar bisnis?,"Untuk seminar bisnis, kombinasikan blazer gelap dengan kemeja light blue dan celana bahan",0
-"Saya mau pergi ke party malam, sebaiknya pakai apa ya?","Untuk party malam, gunakan outfit yang eye-catching dan nyaman untuk berpesta",5
-Baju yang tepat untuk musim hujan?,"Untuk musim hujan, gunakan pakaian berlapis dengan mantel hangat",9
-Style yang bagus untuk awal musim semi apa ya?,"Untuk awal musim semi, kenakan dress floral dengan cardigan ringan",14
-Fashion yang cocok untuk suasana semi?,"Untuk suasana semi, kombinasikan blus dengan rok midi dan flat shoes",14
-Bagaimana cara berpakaian untuk pesta pernikahan?,"Untuk pesta pernikahan, gunakan dress formal dengan warna pastel dan sepatu hak tinggi",4
-"Mau ke sidang, enaknya pakai baju apa?","Untuk sidang, gunakan setelan jas dengan dasi dan sepatu pantofel mengkilap",0
-Apa yang cocok untuk musim panas?,"Untuk musim panas, coba kenakan kaos ringan dengan celana pendek dan sandal.",8
-Outfit yang bagus untuk hangout wanita?,"Untuk hangout wanita, padukan kaos dengan rok A-line dan sneakers",3
-Apa yang harus saya pakai saat hujan?,"Untuk cuaca hujan, kenakan jas hujan dengan sepatu tahan air dan payung.",10
-"Mau ke seminar wanita, enaknya pakai baju apa?","Untuk seminar wanita, kenakan blazer dengan rok pensil dan sepatu heels",1
-Outfit yang bagus untuk acara formal wanita?,"Untuk acara formal wanita, kombinasikan dress formal dengan blazer dan sepatu heels medium",1
-Style yang bagus untuk siang hari panas apa ya?,"Untuk siang hari panas, pilih pakaian berwarna cerah dan berbahan ringan",8
-Rekomendasi pakaian untuk suasana panas?,"Untuk suasana panas, kenakan pakaian berbahan katun yang menyerap keringat",8
-Rekomendasi pakaian untuk hangout wanita?,"Untuk hangout wanita, gunakan t-shirt dengan cullotes dan sepatu flat",3
-Style yang bagus untuk main ke mall apa ya?,"Untuk main ke mall, kenakan kaos dengan jeans dan sneakers casual",2
-Pakaian apa yang cocok untuk presentasi bisnis wanita?,"Untuk presentasi bisnis wanita, kenakan blazer dengan rok pensil dan sepatu heels",1
-"Mau ke cuaca gugur, enaknya pakai baju apa?","Untuk cuaca gugur, kombinasikan turtleneck dengan coat ringan",15
-Fashion yang cocok untuk suasana gugur?,"Untuk suasana gugur, kenakan sweater rajut dengan celana panjang",15
-Style yang bagus untuk weekend casual apa ya?,"Untuk weekend casual, kombinasikan polo shirt dengan celana pendek dan sandal",2
-Bagaimana cara berpakaian untuk acara gathering?,"Untuk acara gathering, padukan kemeja fancy dengan celana formal",5
-Apa yang cocok untuk gerimis?,"Untuk gerimis, kombinasikan raincoat dengan celana panjang dan sepatu tahan air",10
-"Saya mau pergi ke sidang, sebaiknya pakai apa ya?","Untuk sidang, gunakan setelan jas dengan dasi dan sepatu pantofel mengkilap",0
-Pakaian apa yang cocok untuk hangout?,"Untuk hangout, kenakan kaos dengan jeans dan sneakers casual",2
-Outfit yang bagus untuk nongkrong?,"Untuk nongkrong, gunakan t-shirt dengan celana cargo dan sepatu casual",2
-Rekomendasi pakaian untuk pesta dansa?,"Untuk pesta dansa, padukan kemeja fancy dengan celana formal",5
-Baju yang tepat untuk cuaca sejuk?,"Untuk cuaca sejuk, gunakan pakaian berlapis dengan mantel hangat",9
-"Saya mau pergi ke nikahan teman, sebaiknya pakai apa ya?","Untuk nikahan teman, padukan kebaya modern dengan rok panjang dan selop",4
-Baju yang tepat untuk seminar wanita?,"Untuk seminar wanita, kombinasikan dress formal dengan blazer dan sepatu heels medium",1
-Baju yang tepat untuk sidang?,"Untuk sidang, gunakan setelan jas dengan dasi dan sepatu pantofel mengkilap",0
-Rekomendasi pakaian untuk suasana semi?,"Untuk suasana semi, kombinasikan blus dengan rok midi dan flat shoes",14
-Rekomendasi pakaian untuk seminar bisnis?,"Untuk seminar bisnis, gunakan setelan jas dengan dasi dan sepatu pantofel mengkilap",0
-Apa yang cocok untuk cuaca panas?,"Untuk cuaca panas, coba kenakan kaos katun dengan celana pendek dan sandal.",8
-Style yang bagus untuk awal musim gugur apa ya?,"Untuk awal musim gugur, padukan jaket kulit dengan jeans dan boots",15
-Style yang bagus untuk musim dingin apa ya?,"Untuk musim dingin, kombinasikan sweater rajut dengan celana wool",9
-"Mau ke jalan-jalan santai wanita, enaknya pakai baju apa?","Untuk jalan-jalan santai wanita, kenakan dress casual dengan flat shoes nyaman",3
-Style yang bagus untuk cuaca semi apa ya?,"Untuk cuaca semi, gunakan pakaian berlapis yang mudah dilepas",14
-Outfit yang bagus untuk presentasi bisnis wanita?,"Untuk presentasi bisnis wanita, kenakan blazer dengan rok pensil dan sepatu heels",1
-Apa yang cocok untuk seminar bisnis?,"Untuk seminar bisnis, kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam",0
-Style yang bagus untuk hangout wanita apa ya?,"Untuk hangout wanita, kombinasikan blus casual dengan celana jeans dan sandal",3
-Fashion yang cocok untuk cuaca hujan?,"Untuk cuaca hujan, padukan jaket waterproof dengan celana panjang dan boots",10
-Outfit yang bagus untuk musim kemarau?,"Untuk musim kemarau, kenakan pakaian berbahan katun yang menyerap keringat",8
-Rekomendasi pakaian untuk musim panas?,Dress musim panas dengan bahan yang menyerap keringat akan nyaman.,8
-"Saya mau pergi ke musim dingin, sebaiknya pakai apa ya?","Untuk musim dingin, padukan jaket tebal dengan syal dan boots",9
-Pakaian apa yang cocok untuk gerimis?,"Untuk gerimis, gunakan pakaian yang cepat kering dengan sepatu boots anti air",10
-Bagaimana cara berpakaian untuk party malam?,"Untuk party malam, kenakan dress party dengan aksesoris berkilau",5
-Outfit yang bagus untuk cuaca panas?,"Untuk cuaca panas, pilih pakaian berwarna cerah dan berbahan ringan",8
-Pakaian apa yang cocok untuk pesta dansa?,"Untuk pesta dansa, kenakan dress party dengan aksesoris berkilau",5
-Fashion yang cocok untuk nikahan teman?,"Untuk nikahan teman, kombinasikan setelan jas formal dengan dasi dan sepatu pantofel mengkilap",4
-"Saya mau pergi ke weekend casual, sebaiknya pakai apa ya?","Untuk weekend casual, gunakan t-shirt dengan celana cargo dan sepatu casual",2
-Rekomendasi pakaian untuk musim hujan?,"Untuk musim hujan, padukan jaket tebal dengan syal dan boots",9
-Apa yang cocok untuk nongkrong?,"Untuk nongkrong, padukan kemeja casual dengan chino pants dan sepatu sneakers",2
-Pakaian apa yang cocok untuk weekend casual wanita?,"Untuk weekend casual wanita, kombinasikan blus casual dengan celana jeans dan sandal",3
-Pakaian apa yang cocok untuk rapat formal wanita?,"Untuk rapat formal wanita, gunakan setelan blazer dengan rok midi dan sepatu formal",1
-"Saya mau pergi ke acara pemberkatan, sebaiknya pakai apa ya?","Untuk acara pemberkatan, padukan kebaya modern dengan rok panjang dan selop",4
-Rekomendasi pakaian untuk mall wanita?,"Untuk mall wanita, gunakan t-shirt dengan cullotes dan sepatu flat",3
-Style yang bagus untuk wedding party apa ya?,"Untuk wedding party, kenakan gaun panjang dengan heels dan clutch bag",4
-Rekomendasi pakaian untuk cuaca berangin?,Sweater dengan jaket windbreaker dan celana jeans akan nyaman untuk cuaca berangin.,11
-Style yang bagus untuk angin kencang apa ya?,"Untuk angin kencang, kenakan jaket windbreaker dengan celana panjang",11
-Pakaian apa yang cocok untuk cuaca semi?,"Untuk cuaca semi, gunakan pakaian berlapis yang mudah dilepas",14
-Bagaimana cara berpakaian untuk musim semi?,"Untuk musim semi, gunakan pakaian berlapis yang mudah dilepas",14
-Style yang bagus untuk interview kerja wanita apa ya?,"Untuk interview kerja wanita, gunakan setelan blazer dengan rok midi dan sepatu formal",1
-Bagaimana cara berpakaian untuk musim hujan?,"Untuk musim hujan, gunakan pakaian berlapis dengan mantel hangat",9
-Outfit yang bagus untuk cuaca terik?,"Untuk cuaca terik, gunakan baju berbahan ringan dan breathable",8
-Outfit yang bagus untuk hari berangin?,"Untuk hari berangin, gunakan pakaian berlapis dengan jaket tahan angin",11
-Pakaian apa yang cocok untuk suasana panas?,"Untuk suasana panas, pilih pakaian berwarna cerah dan berbahan ringan",8
-Bagaimana cara berpakaian untuk seminar wanita?,"Untuk seminar wanita, kombinasikan dress formal dengan blazer dan sepatu heels medium",1
-Pakaian apa yang cocok untuk awal musim gugur?,"Untuk awal musim gugur, kombinasikan turtleneck dengan coat ringan",15
-"Saya mau pergi ke weekend casual wanita, sebaiknya pakai apa ya?","Untuk weekend casual wanita, padukan kaos dengan rok A-line dan sneakers",3
-Apa yang cocok untuk mall wanita?,"Untuk mall wanita, padukan kaos dengan rok A-line dan sneakers",3
-"Mau ke nongkrong, enaknya pakai baju apa?","Untuk nongkrong, padukan kemeja casual dengan chino pants dan sepatu sneakers",2
-"Mau ke hari yang terik, enaknya pakai baju apa?","Untuk hari yang terik, kenakan pakaian berbahan katun yang menyerap keringat",8
-Bagaimana cara berpakaian untuk weekend casual?,"Untuk weekend casual, padukan kemeja casual dengan chino pants dan sepatu sneakers",2
-"Saya mau pergi ke konferensi bisnis, sebaiknya pakai apa ya?","Untuk konferensi bisnis, gunakan setelan jas dengan dasi dan sepatu pantofel mengkilap",0
-"Mau ke suhu dingin, enaknya pakai baju apa?","Untuk suhu dingin, kombinasikan sweater rajut dengan celana wool",9
-Apa yang cocok untuk wedding party?,"Untuk wedding party, padukan kebaya modern dengan rok panjang dan selop",4
-Apa yang cocok untuk musim angin?,"Untuk musim angin, kenakan jaket windbreaker dengan celana panjang",11
-"Saya mau pergi ke cuaca dingin, sebaiknya pakai apa ya?","Untuk cuaca dingin, kenakan sweater tebal dengan celana panjang",9
-Bagaimana cara berpakaian untuk jalan-jalan santai?,"Untuk jalan-jalan santai, kombinasikan polo shirt dengan celana pendek dan sandal",2
-Bagaimana cara berpakaian untuk cuaca berangin?,"Untuk cuaca berangin, padukan sweater dengan celana yang pas dan tidak berkibar",11
-Bagaimana cara berpakaian untuk mall wanita?,"Untuk mall wanita, kenakan dress casual dengan flat shoes nyaman",3
-Style yang bagus untuk seminar bisnis apa ya?,"Untuk seminar bisnis, kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam",0
-Apa yang cocok untuk pesta pernikahan?,"Untuk pesta pernikahan, padukan kebaya modern dengan rok panjang dan selop",4
-"Saya mau pergi ke hari hujan, sebaiknya pakai apa ya?","Untuk hari hujan, padukan jaket waterproof dengan celana panjang dan boots",10
-Bagaimana cara berpakaian untuk cuaca panas?,"Untuk cuaca panas, padukan kaos lengan pendek dengan celana pendek",8
+query,response,label,gender,skin_tone
+"cewek berkulit sawo matang mau ke rapat formal wanita, enaknya pakai baju apa?",kenakan dress formal dengan warna gelap dan aksesoris minimalis - pilih warna deep gold sebagai warna utama dan royal blue sebagai aksen,3,wanita,dark
+Rekomendasi warna pakaian untuk perempuan dengan tone kulit gelap?,"Untuk perempuan dengan kulit gelap, warna yang sangat cocok adalah bright yellow, fuchsia. Sebaiknya hindari muted earth tones, chocolate brown karena kurang flattering untuk tone kulit Anda.",3,wanita,dark
+Kombinasi warna untuk cewek dengan kulit hitam manis?,"Untuk cewek dengan kulit hitam manis, warna yang sangat cocok adalah lime green, electric blue. Sebaiknya hindari black, dark brown karena kurang flattering untuk tone kulit Anda.",3,wanita,very_dark
+Rekomendasi pakaian seminar bisnis untuk cowok dengan kulit putih?,kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam - pilih warna deep burgundy sebagai warna utama dan rose gold sebagai aksen,0,pria,light
+Kombinasi warna untuk cewek dengan kulit coklat?,"Untuk cewek dengan kulit coklat, warna yang sangat cocok adalah bright yellow, fuchsia. Sebaiknya hindari chocolate brown, muted earth tones karena kurang flattering untuk tone kulit Anda.",3,wanita,dark
+"Saya cewek berkulit kuning langsat mau pergi ke jalan-jalan santai wanita, sebaiknya pakai apa ya?",kenakan dress casual dengan flat shoes nyaman - pilih warna pastel blue sebagai warna utama dan pearl white sebagai aksen,5,wanita,light
+Warna apa yang cocok untuk cewek dengan kulit kulit putih?,"Untuk cewek dengan kulit kulit putih, warna yang sangat cocok adalah royal purple, burgundy. Sebaiknya hindari pale pastels, light beige karena kurang flattering untuk tone kulit Anda.",1,wanita,very_light
+Warna apa yang cocok untuk pria dengan kulit sawo matang?,"Untuk pria dengan kulit sawo matang, warna yang sangat cocok adalah bright yellow, cobalt blue. Sebaiknya hindari dark navy, muted earth tones karena kurang flattering untuk tone kulit Anda.",2,pria,dark
+Apa yang cocok untuk acara formal wanita untuk perempuan berkulit gelap?,gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi - pilih warna chocolate brown sebagai warna utama dan copper sebagai aksen,3,wanita,dark
+"Saya cewek berkulit gelap mau pergi ke rapat formal wanita, sebaiknya pakai apa ya?",kenakan dress formal dengan warna gelap dan aksesoris minimalis - pilih warna olive green sebagai warna utama dan gold sebagai aksen,3,wanita,dark
+"wanita berkulit cerah mau ke seminar wanita, enaknya pakai baju apa?",padukan blus formal dengan celana bahan dan flat shoes formal - pilih warna royal purple sebagai warna utama dan pearl white sebagai aksen,1,wanita,light
+Warna yang bagus untuk cewek berkulit sangat cerah?,"Untuk cewek dengan kulit sangat cerah, warna yang sangat cocok adalah emerald green, navy blue. Sebaiknya hindari light beige, neon yellow karena kurang flattering untuk tone kulit Anda.",1,wanita,very_light
+laki-laki berkulit hitam manis sebaiknya mengenakan warna apa?,"Untuk laki-laki dengan kulit hitam manis, warna yang sangat cocok adalah hot pink, bright white. Sebaiknya hindari dark brown, black karena kurang flattering untuk tone kulit Anda.",2,pria,very_dark
+Apa yang cocok untuk pesta ulang tahun?,kenakan dress party dengan aksesoris berkilau,9,neutral,neutral
+Baju untuk presentasi formal?,kenakan blazer hitam dengan kemeja putih dan celana bahan gelap - pilih warna deep gold sebagai warna utama dan royal blue sebagai aksen,2,pria,dark
+"wanita berkulit kuning langsat mau ke interview kerja wanita, enaknya pakai baju apa?",padukan blus formal dengan celana bahan dan flat shoes formal - pilih warna charcoal grey sebagai warna utama dan soft pink sebagai aksen,1,wanita,light
+Outfit yang bagus untuk cowok dengan kulit sawo matang ke seminar bisnis?,gunakan setelan jas abu-abu dengan dasi merah dan sepatu pantofel hitam - pilih warna terracotta sebagai warna utama dan bronze sebagai aksen,2,pria,dark
+cewek berkulit kuning kecoklatan sebaiknya mengenakan warna apa?,"Untuk cewek dengan kulit kuning kecoklatan, warna yang sangat cocok adalah teal, olive green. Sebaiknya hindari muted pastel, brown close to skin tone karena kurang flattering untuk tone kulit Anda.",3,wanita,medium
+Warna yang bagus untuk wanita berkulit putih?,"Untuk wanita dengan kulit putih, warna yang sangat cocok adalah forest green, deep blue. Sebaiknya hindari orange-yellow, beige karena kurang flattering untuk tone kulit Anda.",1,wanita,light
+"perempuan berkulit gelap mau ke jalan-jalan wanita, enaknya pakai baju apa?",kombinasikan blouse casual dengan celana jeans dan sepatu flat - pilih warna coral sebagai warna utama dan bright red sebagai aksen,7,wanita,dark
+Warna yang bagus untuk pria berkulit kulit putih?,"Untuk pria dengan kulit kulit putih, warna yang sangat cocok adalah burgundy, emerald green. Sebaiknya hindari light beige, pale pastels karena kurang flattering untuk tone kulit Anda.",0,pria,very_light
+Rekomendasi pakaian seminar bisnis untuk cowok dengan kulit coklat?,kenakan blazer hitam dengan kemeja putih dan celana bahan gelap - pilih warna rust orange sebagai warna utama dan bronze sebagai aksen,2,pria,dark
+Bagaimana cara berpakaian untuk musim kemarau?,gunakan kaos lengan pendek dengan celana pendek,11,neutral,neutral
+Rekomendasi pakaian interview kerja wanita untuk perempuan dengan kulit kuning langsat?,kenakan blazer dengan rok pensil dan sepatu heels - pilih warna forest green sebagai warna utama dan rose gold sebagai aksen,1,wanita,light
+Outfit yang bagus untuk pernikahan?,kenakan gaun panjang dengan heels dan clutch bag,8,neutral,neutral
+Outfit yang bagus untuk laki-laki dengan kulit coklat ke presentasi formal?,gunakan setelan jas abu-abu dengan dasi merah dan sepatu pantofel hitam - pilih warna terracotta sebagai warna utama dan royal blue sebagai aksen,2,pria,dark
+"wanita berkulit gelap mau ke rapat formal wanita, enaknya pakai baju apa?",gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi - pilih warna deep gold sebagai warna utama dan bright red sebagai aksen,3,wanita,dark
+"Saya wanita dengan warna kulit kuning langsat, warna apa yang flattering?","Untuk wanita dengan kulit kuning langsat, warna yang sangat cocok adalah forest green, deep blue. Sebaiknya hindari bright orange, beige karena kurang flattering untuk tone kulit Anda.",1,wanita,light
+Rekomendasi pakaian rapat formal wanita untuk cewek dengan kulit kuning langsat?,padukan blus formal dengan celana bahan dan flat shoes formal - pilih warna navy blue sebagai warna utama dan light grey sebagai aksen,1,wanita,light
+"Saya wanita berkulit gelap mau pergi ke rapat formal wanita, sebaiknya pakai apa ya?",kenakan dress formal dengan warna gelap dan aksesoris minimalis - pilih warna rust orange sebagai warna utama dan gold sebagai aksen,3,wanita,dark
+Outfit yang bagus untuk laki-laki dengan kulit cerah ke jalan-jalan santai?,kenakan kaos dengan jeans dan sneakers casual - pilih warna light pink sebagai warna utama dan pearl white sebagai aksen,4,pria,light
+Rekomendasi pakaian seminar bisnis untuk pria dengan kulit putih?,kombinasikan blazer gelap dengan kemeja light blue dan celana bahan - pilih warna charcoal grey sebagai warna utama dan rose gold sebagai aksen,0,pria,light
+Apa yang cocok untuk jalan-jalan wanita untuk cewek berkulit coklat?,kombinasikan blouse casual dengan celana jeans dan sepatu flat - pilih warna bright yellow sebagai warna utama dan copper sebagai aksen,7,wanita,dark
+"Saya perempuan berkulit sawo matang mau pergi ke rapat formal wanita, sebaiknya pakai apa ya?",kenakan dress formal dengan warna gelap dan aksesoris minimalis - pilih warna deep gold sebagai warna utama dan gold sebagai aksen,3,wanita,dark
+Kombinasi warna untuk pria dengan kulit coklat?,"Untuk pria dengan kulit coklat, warna yang sangat cocok adalah fuchsia, bright orange. Sebaiknya hindari chocolate brown, dark navy karena kurang flattering untuk tone kulit Anda.",2,pria,dark
+Apa yang harus saya pakai untuk pesta?,"Untuk pesta, coba kenakan dress berwarna cerah dengan aksesoris yang mencolok.",5,neutral,neutral
+Warna apa yang cocok untuk cowok dengan kulit kuning langsat?,"Untuk cowok dengan kulit kuning langsat, warna yang sangat cocok adalah forest green, berry tones. Sebaiknya hindari beige, bright orange karena kurang flattering untuk tone kulit Anda.",0,pria,light
+Rekomendasi pakaian jalan-jalan santai wanita untuk cewek dengan kulit cerah?,padukan kaos dengan rok A-line dan sneakers - pilih warna lavender sebagai warna utama dan pearl white sebagai aksen,5,wanita,light
+Apa yang cocok untuk presentasi formal untuk laki-laki berkulit coklat?,gunakan setelan jas abu-abu dengan dasi merah dan sepatu pantofel hitam - pilih warna rust orange sebagai warna utama dan copper sebagai aksen,2,pria,dark
+"Saya cowok berkulit kuning langsat mau pergi ke jalan-jalan santai, sebaiknya pakai apa ya?",kenakan kaos dengan jeans dan sneakers casual - pilih warna mint green sebagai warna utama dan soft pink sebagai aksen,4,pria,light
+Rekomendasi warna pakaian untuk pria dengan tone kulit gelap?,"Untuk pria dengan kulit gelap, warna yang sangat cocok adalah bright yellow, fuchsia. Sebaiknya hindari chocolate brown, dark navy karena kurang flattering untuk tone kulit Anda.",2,pria,dark
+Warna apa yang cocok untuk cowok dengan kulit cerah?,"Untuk cowok dengan kulit cerah, warna yang sangat cocok adalah forest green, deep blue. Sebaiknya hindari beige, bright orange karena kurang flattering untuk tone kulit Anda.",0,pria,light
+Warna apa yang cocok untuk cewek dengan kulit coklat?,"Untuk cewek dengan kulit coklat, warna yang sangat cocok adalah bright orange, bright yellow. Sebaiknya hindari muted earth tones, chocolate brown karena kurang flattering untuk tone kulit Anda.",3,wanita,dark
+Kombinasi warna untuk perempuan dengan kulit sawo matang muda?,"Untuk perempuan dengan kulit sawo matang muda, warna yang sangat cocok adalah olive green, teal. Sebaiknya hindari muted pastel, brown close to skin tone karena kurang flattering untuk tone kulit Anda.",3,wanita,medium
+"Saya laki-laki dengan warna kulit hitam manis, warna apa yang flattering?","Untuk laki-laki dengan kulit hitam manis, warna yang sangat cocok adalah bright white, electric blue. Sebaiknya hindari deep navy, black karena kurang flattering untuk tone kulit Anda.",2,pria,very_dark
+Apa yang cocok untuk presentasi perusahaan untuk pria berkulit putih?,kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam - pilih warna charcoal grey sebagai warna utama dan silver sebagai aksen,0,pria,light
+"pria berkulit gelap mau ke jalan santai pria, enaknya pakai baju apa?",gunakan t-shirt hitam dengan jeans biru dan sneakers putih - pilih warna electric blue sebagai warna utama dan royal blue sebagai aksen,6,pria,dark
+perempuan berkulit gelap sebaiknya mengenakan warna apa?,"Untuk perempuan dengan kulit gelap, warna yang sangat cocok adalah fuchsia, cobalt blue. Sebaiknya hindari chocolate brown, muted earth tones karena kurang flattering untuk tone kulit Anda.",3,wanita,dark
+"pria berkulit putih mau ke seminar bisnis, enaknya pakai baju apa?",kombinasikan blazer gelap dengan kemeja light blue dan celana bahan - pilih warna charcoal grey sebagai warna utama dan rose gold sebagai aksen,0,pria,light
+"Saya laki-laki berkulit sawo matang mau pergi ke jalan santai pria, sebaiknya pakai apa ya?",gunakan t-shirt hitam dengan jeans biru dan sneakers putih - pilih warna bright yellow sebagai warna utama dan copper sebagai aksen,6,pria,dark
+Outfit yang bagus untuk pria dengan kulit putih ke presentasi perusahaan?,kombinasikan blazer gelap dengan kemeja light blue dan celana bahan - pilih warna deep burgundy sebagai warna utama dan pearl white sebagai aksen,0,pria,light
+cewek berkulit kuning langsat sebaiknya mengenakan warna apa?,"Untuk cewek dengan kulit kuning langsat, warna yang sangat cocok adalah forest green, plum. Sebaiknya hindari bright orange, beige karena kurang flattering untuk tone kulit Anda.",1,wanita,light
+Apa yang cocok untuk presentasi formal untuk pria berkulit sawo matang?,kenakan blazer hitam dengan kemeja putih dan celana bahan gelap - pilih warna terracotta sebagai warna utama dan bronze sebagai aksen,2,pria,dark
+"Saya cewek berkulit putih mau pergi ke interview kerja wanita, sebaiknya pakai apa ya?",kenakan blazer dengan rok pensil dan sepatu heels - pilih warna deep burgundy sebagai warna utama dan pearl white sebagai aksen,1,wanita,light
+"perempuan berkulit putih mau ke interview kerja wanita, enaknya pakai baju apa?",padukan blus formal dengan celana bahan dan flat shoes formal - pilih warna deep burgundy sebagai warna utama dan rose gold sebagai aksen,1,wanita,light
+Apa yang cocok untuk interview kerja untuk laki-laki berkulit kuning langsat?,kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam - pilih warna deep burgundy sebagai warna utama dan rose gold sebagai aksen,0,pria,light
+Warna yang bagus untuk cowok berkulit sawo matang muda?,"Untuk cowok dengan kulit sawo matang muda, warna yang sangat cocok adalah olive green, teal. Sebaiknya hindari brown close to skin tone, muted pastel karena kurang flattering untuk tone kulit Anda.",2,pria,medium
+"Saya cewek berkulit putih mau pergi ke nongkrong casual, sebaiknya pakai apa ya?",kenakan dress casual dengan flat shoes nyaman - pilih warna pastel blue sebagai warna utama dan silver sebagai aksen,5,wanita,light
+Baju untuk interview kerja?,kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam - pilih warna deep burgundy sebagai warna utama dan silver sebagai aksen,0,pria,light
+Warna apa yang cocok untuk pria dengan kulit putih?,"Untuk pria dengan kulit putih, warna yang sangat cocok adalah berry tones, plum. Sebaiknya hindari orange-yellow, beige karena kurang flattering untuk tone kulit Anda.",0,pria,light
+Outfit yang bagus untuk angin kencang?,gunakan pakaian berlapis dengan jaket tahan angin,14,neutral,neutral
+Outfit yang bagus untuk pria dengan kulit putih ke seminar bisnis?,kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam - pilih warna charcoal grey sebagai warna utama dan pearl white sebagai aksen,0,pria,light
+Outfit yang bagus untuk suasana gugur?,padukan jaket kulit dengan jeans dan boots,18,neutral,neutral
+Bagaimana cara berpakaian untuk perempuan berkulit kuning langsat ke jalan-jalan santai wanita?,kenakan dress casual dengan flat shoes nyaman - pilih warna lavender sebagai warna utama dan silver sebagai aksen,5,wanita,light
+"Saya laki-laki berkulit kuning langsat mau pergi ke hangout, sebaiknya pakai apa ya?",kenakan kaos dengan jeans dan sneakers casual - pilih warna mint green sebagai warna utama dan light grey sebagai aksen,4,pria,light
+wanita berkulit coklat tua sebaiknya mengenakan warna apa?,"Untuk wanita dengan kulit coklat tua, warna yang sangat cocok adalah bright white, electric blue. Sebaiknya hindari dark brown, black karena kurang flattering untuk tone kulit Anda.",3,wanita,very_dark
+"Mau ke cuaca berangin, sebaiknya pakai apa ya?",gunakan pakaian berlapis dengan jaket tahan angin,14,neutral,neutral
+Warna apa yang cocok untuk laki-laki dengan kulit sangat cerah?,"Untuk laki-laki dengan kulit sangat cerah, warna yang sangat cocok adalah navy blue, burgundy. Sebaiknya hindari neon yellow, light beige karena kurang flattering untuk tone kulit Anda.",0,pria,very_light
+Bagaimana cara berpakaian untuk pesta ulang tahun?,padukan kemeja fancy dengan celana formal,9,neutral,neutral
+"Saya cowok berkulit putih mau pergi ke hangout, sebaiknya pakai apa ya?",padukan kemeja casual dengan chino pants dan sepatu sneakers - pilih warna pastel blue sebagai warna utama dan rose gold sebagai aksen,4,pria,light
+Bagaimana cara berpakaian untuk cowok berkulit gelap ke jalan santai pria?,padukan polo shirt dengan celana pendek khaki dan sandal santai - pilih warna emerald green sebagai warna utama dan gold sebagai aksen,6,pria,dark
+"cewek berkulit putih mau ke interview kerja wanita, enaknya pakai baju apa?",kenakan blazer dengan rok pensil dan sepatu heels - pilih warna royal purple sebagai warna utama dan silver sebagai aksen,1,wanita,light
+Outfit yang bagus untuk laki-laki dengan kulit putih ke interview kerja?,kombinasikan blazer gelap dengan kemeja light blue dan celana bahan - pilih warna forest green sebagai warna utama dan soft pink sebagai aksen,0,pria,light
+Rekomendasi pakaian nongkrong di kafe untuk pria dengan kulit gelap?,gunakan t-shirt hitam dengan jeans biru dan sneakers putih - pilih warna rich purple sebagai warna utama dan gold sebagai aksen,6,pria,dark
+Apa yang cocok untuk jalan-jalan santai wanita untuk perempuan berkulit cerah?,padukan kaos dengan rok A-line dan sneakers - pilih warna pastel blue sebagai warna utama dan soft pink sebagai aksen,5,wanita,light
+Bagaimana cara berpakaian untuk wanita berkulit coklat ke acara formal wanita?,gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi - pilih warna rust orange sebagai warna utama dan royal blue sebagai aksen,3,wanita,dark
+Rekomendasi pakaian nongkrong di kafe untuk pria dengan kulit sawo matang?,padukan polo shirt dengan celana pendek khaki dan sandal santai - pilih warna coral sebagai warna utama dan copper sebagai aksen,6,pria,dark
+Rekomendasi pakaian rapat formal wanita untuk perempuan dengan kulit coklat?,gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi - pilih warna terracotta sebagai warna utama dan royal blue sebagai aksen,3,wanita,dark
+"Saya wanita berkulit cerah mau pergi ke jalan-jalan santai wanita, sebaiknya pakai apa ya?",padukan kaos dengan rok A-line dan sneakers - pilih warna light pink sebagai warna utama dan silver sebagai aksen,5,wanita,light
+Outfit yang bagus untuk pria dengan kulit putih ke interview kerja?,kombinasikan blazer gelap dengan kemeja light blue dan celana bahan - pilih warna forest green sebagai warna utama dan rose gold sebagai aksen,0,pria,light
+Warna yang bagus untuk cowok berkulit kulit putih?,"Untuk cowok dengan kulit kulit putih, warna yang sangat cocok adalah royal purple, burgundy. Sebaiknya hindari neon yellow, pale pastels karena kurang flattering untuk tone kulit Anda.",0,pria,very_light
+Rekomendasi pakaian jalan-jalan santai wanita untuk perempuan dengan kulit cerah?,kenakan dress casual dengan flat shoes nyaman - pilih warna pastel blue sebagai warna utama dan rose gold sebagai aksen,5,wanita,light
+Outfit yang bagus untuk laki-laki dengan kulit gelap ke jalan santai pria?,gunakan t-shirt hitam dengan jeans biru dan sneakers putih - pilih warna coral sebagai warna utama dan royal blue sebagai aksen,6,pria,dark
+Apa yang cocok untuk rapat formal untuk laki-laki berkulit cerah?,kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam - pilih warna navy blue sebagai warna utama dan rose gold sebagai aksen,0,pria,light
+Rekomendasi pakaian seminar bisnis untuk cowok dengan kulit gelap?,gunakan setelan jas abu-abu dengan dasi merah dan sepatu pantofel hitam - pilih warna deep gold sebagai warna utama dan bright red sebagai aksen,2,pria,dark
+"Saya cowok dengan warna kulit gelap, warna apa yang flattering?","Untuk cowok dengan kulit gelap, warna yang sangat cocok adalah bright orange, cobalt blue. Sebaiknya hindari dark navy, muted earth tones karena kurang flattering untuk tone kulit Anda.",2,pria,dark
+Outfit yang bagus untuk wanita dengan kulit sawo matang ke rapat formal wanita?,gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi - pilih warna terracotta sebagai warna utama dan bright red sebagai aksen,3,wanita,dark
+Apa yang cocok untuk nongkrong di kafe untuk cowok berkulit coklat?,gunakan t-shirt hitam dengan jeans biru dan sneakers putih - pilih warna coral sebagai warna utama dan bronze sebagai aksen,6,pria,dark
+pria berkulit kulit putih sebaiknya mengenakan warna apa?,"Untuk pria dengan kulit kulit putih, warna yang sangat cocok adalah navy blue, emerald green. Sebaiknya hindari light beige, neon yellow karena kurang flattering untuk tone kulit Anda.",0,pria,very_light
+Outfit yang bagus untuk laki-laki dengan kulit sawo matang ke nongkrong di kafe?,padukan polo shirt dengan celana pendek khaki dan sandal santai - pilih warna rich purple sebagai warna utama dan bronze sebagai aksen,6,pria,dark
+Apa yang cocok untuk interview kerja wanita untuk perempuan berkulit kuning langsat?,kenakan blazer dengan rok pensil dan sepatu heels - pilih warna charcoal grey sebagai warna utama dan soft pink sebagai aksen,1,wanita,light
+Warna apa yang cocok untuk perempuan dengan kulit sawo matang?,"Untuk perempuan dengan kulit sawo matang, warna yang sangat cocok adalah cobalt blue, fuchsia. Sebaiknya hindari muted earth tones, chocolate brown karena kurang flattering untuk tone kulit Anda.",3,wanita,dark
+"perempuan berkulit sawo matang mau ke rapat formal wanita, enaknya pakai baju apa?",gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi - pilih warna rust orange sebagai warna utama dan copper sebagai aksen,3,wanita,dark
+Bagaimana cara berpakaian untuk cewek berkulit cerah ke nongkrong casual?,kenakan dress casual dengan flat shoes nyaman - pilih warna mint green sebagai warna utama dan rose gold sebagai aksen,5,wanita,light
+Bagaimana cara berpakaian untuk perempuan berkulit putih ke rapat formal wanita?,padukan blus formal dengan celana bahan dan flat shoes formal - pilih warna deep burgundy sebagai warna utama dan rose gold sebagai aksen,1,wanita,light
+Apa yang cocok untuk jalan-jalan wanita untuk perempuan berkulit gelap?,kombinasikan blouse casual dengan celana jeans dan sepatu flat - pilih warna emerald green sebagai warna utama dan bright red sebagai aksen,7,wanita,dark
+"Mau ke angin kencang, sebaiknya pakai apa ya?",gunakan pakaian berlapis dengan jaket tahan angin,14,neutral,neutral
+Kombinasi warna untuk laki-laki dengan kulit putih pucat?,"Untuk laki-laki dengan kulit putih pucat, warna yang sangat cocok adalah navy blue, royal purple. Sebaiknya hindari neon yellow, pale pastels karena kurang flattering untuk tone kulit Anda.",0,pria,very_light
+Rekomendasi pakaian untuk awal musim semi?,kenakan dress floral dengan cardigan ringan,17,neutral,neutral
+Kombinasi warna untuk laki-laki dengan kulit kulit gelap?,"Untuk laki-laki dengan kulit kulit gelap, warna yang sangat cocok adalah electric blue, hot pink. Sebaiknya hindari deep navy, dark brown karena kurang flattering untuk tone kulit Anda.",2,pria,very_dark
+Outfit yang bagus untuk laki-laki dengan kulit cerah ke seminar bisnis?,kombinasikan blazer gelap dengan kemeja light blue dan celana bahan - pilih warna forest green sebagai warna utama dan rose gold sebagai aksen,0,pria,light
+Rekomendasi pakaian nongkrong malam wanita untuk perempuan dengan kulit gelap?,gunakan dress maxi dengan warna cerah dan sandal nyaman - pilih warna electric blue sebagai warna utama dan gold sebagai aksen,7,wanita,dark
+Rekomendasi pakaian nongkrong malam wanita untuk wanita dengan kulit gelap?,kombinasikan blouse casual dengan celana jeans dan sepatu flat - pilih warna coral sebagai warna utama dan gold sebagai aksen,7,wanita,dark
+Kombinasi warna untuk perempuan dengan kulit putih?,"Untuk perempuan dengan kulit putih, warna yang sangat cocok adalah berry tones, forest green. Sebaiknya hindari orange-yellow, bright orange karena kurang flattering untuk tone kulit Anda.",1,wanita,light
+Warna yang bagus untuk perempuan berkulit gelap?,"Untuk perempuan dengan kulit gelap, warna yang sangat cocok adalah fuchsia, cobalt blue. Sebaiknya hindari dark navy, chocolate brown karena kurang flattering untuk tone kulit Anda.",3,wanita,dark
+Outfit yang bagus untuk cowok dengan kulit cerah ke seminar bisnis?,kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam - pilih warna forest green sebagai warna utama dan rose gold sebagai aksen,0,pria,light
+Rekomendasi pakaian hangout untuk pria dengan kulit putih?,kenakan kaos dengan jeans dan sneakers casual - pilih warna light pink sebagai warna utama dan soft pink sebagai aksen,4,pria,light
+Rekomendasi pakaian untuk musim kemarau?,gunakan kaos lengan pendek dengan celana pendek,11,neutral,neutral
+cowok berkulit sawo matang sebaiknya mengenakan warna apa?,"Untuk cowok dengan kulit sawo matang, warna yang sangat cocok adalah cobalt blue, bright yellow. Sebaiknya hindari dark navy, muted earth tones karena kurang flattering untuk tone kulit Anda.",2,pria,dark
+"cewek berkulit cerah mau ke seminar wanita, enaknya pakai baju apa?",kenakan blazer dengan rok pensil dan sepatu heels - pilih warna deep burgundy sebagai warna utama dan light grey sebagai aksen,1,wanita,light
+Rekomendasi warna pakaian untuk cewek dengan tone kulit cerah?,"Untuk cewek dengan kulit cerah, warna yang sangat cocok adalah forest green, deep blue. Sebaiknya hindari orange-yellow, beige karena kurang flattering untuk tone kulit Anda.",1,wanita,light
+pria berkulit putih pucat sebaiknya mengenakan warna apa?,"Untuk pria dengan kulit putih pucat, warna yang sangat cocok adalah navy blue, burgundy. Sebaiknya hindari neon yellow, light beige karena kurang flattering untuk tone kulit Anda.",0,pria,very_light
+Kombinasi warna untuk pria dengan kulit kuning langsat?,"Untuk pria dengan kulit kuning langsat, warna yang sangat cocok adalah deep blue, forest green. Sebaiknya hindari beige, orange-yellow karena kurang flattering untuk tone kulit Anda.",0,pria,light
+"Mau ke pesta ulang tahun, sebaiknya pakai apa ya?",padukan kemeja fancy dengan celana formal,9,neutral,neutral
+Apa yang cocok untuk rapat formal wanita untuk perempuan berkulit coklat?,kenakan dress formal dengan warna gelap dan aksesoris minimalis - pilih warna deep gold sebagai warna utama dan gold sebagai aksen,3,wanita,dark
+Apa yang sebaiknya dipakai untuk seminar bisnis?,kombinasikan blazer gelap dengan kemeja light blue dan celana bahan - pilih warna forest green sebagai warna utama dan pearl white sebagai aksen,0,pria,light
+Warna apa yang cocok untuk wanita dengan kulit kulit gelap?,"Untuk wanita dengan kulit kulit gelap, warna yang sangat cocok adalah bright white, hot pink. Sebaiknya hindari deep navy, dark brown karena kurang flattering untuk tone kulit Anda.",3,wanita,very_dark
+Warna yang bagus untuk pria berkulit kulit gelap?,"Untuk pria dengan kulit kulit gelap, warna yang sangat cocok adalah hot pink, bright white. Sebaiknya hindari black, dark brown karena kurang flattering untuk tone kulit Anda.",2,pria,very_dark
+Warna yang bagus untuk laki-laki berkulit cerah?,"Untuk laki-laki dengan kulit cerah, warna yang sangat cocok adalah forest green, berry tones. Sebaiknya hindari bright orange, orange-yellow karena kurang flattering untuk tone kulit Anda.",0,pria,light
+"Saya perempuan berkulit cerah mau pergi ke seminar wanita, sebaiknya pakai apa ya?",kenakan blazer dengan rok pensil dan sepatu heels - pilih warna forest green sebagai warna utama dan pearl white sebagai aksen,1,wanita,light
+Bagaimana cara berpakaian untuk pria berkulit putih ke hangout?,padukan kemeja casual dengan chino pants dan sepatu sneakers - pilih warna lavender sebagai warna utama dan silver sebagai aksen,4,pria,light
+"wanita berkulit putih mau ke seminar wanita, enaknya pakai baju apa?",kenakan blazer dengan rok pensil dan sepatu heels - pilih warna navy blue sebagai warna utama dan silver sebagai aksen,1,wanita,light
+"Saya laki-laki berkulit cerah mau pergi ke interview kerja, sebaiknya pakai apa ya?",kombinasikan blazer gelap dengan kemeja light blue dan celana bahan - pilih warna deep burgundy sebagai warna utama dan light grey sebagai aksen,0,pria,light
+Apa yang cocok untuk hangout untuk cowok berkulit cerah?,kenakan kaos dengan jeans dan sneakers casual - pilih warna lavender sebagai warna utama dan soft pink sebagai aksen,4,pria,light
+Rekomendasi warna pakaian untuk perempuan dengan tone kulit kuning kecoklatan?,"Untuk perempuan dengan kulit kuning kecoklatan, warna yang sangat cocok adalah teal, olive green. Sebaiknya hindari muted pastel, brown close to skin tone karena kurang flattering untuk tone kulit Anda.",3,wanita,medium
+Outfit yang bagus untuk laki-laki dengan kulit gelap ke nongkrong di kafe?,gunakan t-shirt hitam dengan jeans biru dan sneakers putih - pilih warna rich purple sebagai warna utama dan copper sebagai aksen,6,pria,dark
+Warna yang bagus untuk perempuan berkulit sawo matang muda?,"Untuk perempuan dengan kulit sawo matang muda, warna yang sangat cocok adalah warm purple, teal. Sebaiknya hindari muted pastel, brown close to skin tone karena kurang flattering untuk tone kulit Anda.",3,wanita,medium
+"Saya wanita berkulit cerah mau pergi ke interview kerja wanita, sebaiknya pakai apa ya?",padukan blus formal dengan celana bahan dan flat shoes formal - pilih warna navy blue sebagai warna utama dan silver sebagai aksen,1,wanita,light
+Rekomendasi pakaian nongkrong casual untuk wanita dengan kulit putih?,kenakan dress casual dengan flat shoes nyaman - pilih warna powder blue sebagai warna utama dan light grey sebagai aksen,5,wanita,light
+Warna yang bagus untuk laki-laki berkulit tan?,"Untuk laki-laki dengan kulit tan, warna yang sangat cocok adalah olive green, teal. Sebaiknya hindari muted pastel, brown close to skin tone karena kurang flattering untuk tone kulit Anda.",2,pria,medium
+"cewek berkulit coklat mau ke rapat formal wanita, enaknya pakai baju apa?",gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi - pilih warna terracotta sebagai warna utama dan bright red sebagai aksen,3,wanita,dark
+Bagaimana cara berpakaian untuk wanita berkulit kuning langsat ke jalan-jalan santai wanita?,padukan kaos dengan rok A-line dan sneakers - pilih warna light pink sebagai warna utama dan rose gold sebagai aksen,5,wanita,light
+Rekomendasi warna pakaian untuk laki-laki dengan tone kulit gelap?,"Untuk laki-laki dengan kulit gelap, warna yang sangat cocok adalah cobalt blue, fuchsia. Sebaiknya hindari muted earth tones, chocolate brown karena kurang flattering untuk tone kulit Anda.",2,pria,dark
+"Saya perempuan berkulit kuning langsat mau pergi ke interview kerja wanita, sebaiknya pakai apa ya?",padukan blus formal dengan celana bahan dan flat shoes formal - pilih warna deep burgundy sebagai warna utama dan silver sebagai aksen,1,wanita,light
+Kombinasi warna untuk cowok dengan kulit coklat?,"Untuk cowok dengan kulit coklat, warna yang sangat cocok adalah bright yellow, fuchsia. Sebaiknya hindari muted earth tones, chocolate brown karena kurang flattering untuk tone kulit Anda.",2,pria,dark
+Rekomendasi pakaian presentasi formal untuk pria dengan kulit coklat?,gunakan setelan jas abu-abu dengan dasi merah dan sepatu pantofel hitam - pilih warna rust orange sebagai warna utama dan copper sebagai aksen,2,pria,dark
+Bagaimana cara berpakaian untuk laki-laki berkulit sawo matang ke jalan santai pria?,gunakan t-shirt hitam dengan jeans biru dan sneakers putih - pilih warna coral sebagai warna utama dan bronze sebagai aksen,6,pria,dark
+Outfit yang bagus untuk perempuan dengan kulit coklat ke acara formal wanita?,kenakan dress formal dengan warna gelap dan aksesoris minimalis - pilih warna chocolate brown sebagai warna utama dan copper sebagai aksen,3,wanita,dark
+cowok berkulit gelap sebaiknya mengenakan warna apa?,"Untuk cowok dengan kulit gelap, warna yang sangat cocok adalah bright orange, fuchsia. Sebaiknya hindari chocolate brown, dark navy karena kurang flattering untuk tone kulit Anda.",2,pria,dark
+Kombinasi warna untuk perempuan dengan kulit sawo matang?,"Untuk perempuan dengan kulit sawo matang, warna yang sangat cocok adalah bright yellow, fuchsia. Sebaiknya hindari chocolate brown, muted earth tones karena kurang flattering untuk tone kulit Anda.",3,wanita,dark
+Apa yang cocok untuk interview kerja wanita untuk cewek berkulit kuning langsat?,kenakan blazer dengan rok pensil dan sepatu heels - pilih warna forest green sebagai warna utama dan rose gold sebagai aksen,1,wanita,light
+Rekomendasi pakaian hangout untuk laki-laki dengan kulit kuning langsat?,padukan kemeja casual dengan chino pants dan sepatu sneakers - pilih warna powder blue sebagai warna utama dan pearl white sebagai aksen,4,pria,light
+Baju untuk nongkrong malam wanita?,kombinasikan blouse casual dengan celana jeans dan sepatu flat - pilih warna bright yellow sebagai warna utama dan bronze sebagai aksen,7,wanita,dark
+Rekomendasi pakaian seminar wanita untuk perempuan dengan kulit putih?,padukan blus formal dengan celana bahan dan flat shoes formal - pilih warna royal purple sebagai warna utama dan soft pink sebagai aksen,1,wanita,light
+Rekomendasi warna pakaian untuk perempuan dengan tone kulit kuning langsat?,"Untuk perempuan dengan kulit kuning langsat, warna yang sangat cocok adalah forest green, deep blue. Sebaiknya hindari beige, bright orange karena kurang flattering untuk tone kulit Anda.",1,wanita,light
+Apa yang cocok untuk nongkrong malam wanita untuk wanita berkulit sawo matang?,gunakan dress maxi dengan warna cerah dan sandal nyaman - pilih warna emerald green sebagai warna utama dan bronze sebagai aksen,7,wanita,dark
+"cewek berkulit kuning langsat mau ke nongkrong casual, enaknya pakai baju apa?",kenakan dress casual dengan flat shoes nyaman - pilih warna mint green sebagai warna utama dan pearl white sebagai aksen,5,wanita,light
+Warna apa yang cocok untuk laki-laki dengan kulit coklat tua?,"Untuk laki-laki dengan kulit coklat tua, warna yang sangat cocok adalah bright white, hot pink. Sebaiknya hindari deep navy, dark brown karena kurang flattering untuk tone kulit Anda.",2,pria,very_dark
+"Saya cowok dengan warna kulit sawo matang muda, warna apa yang flattering?","Untuk cowok dengan kulit sawo matang muda, warna yang sangat cocok adalah coral, warm purple. Sebaiknya hindari muted pastel, brown close to skin tone karena kurang flattering untuk tone kulit Anda.",2,pria,medium
+Apa yang cocok untuk interview kerja untuk pria berkulit cerah?,kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam - pilih warna charcoal grey sebagai warna utama dan pearl white sebagai aksen,0,pria,light
+"Mau ke acara lainnya, sebaiknya pakai apa ya?",pilih pakaian casual atau formal tergantung kebutuhan,19,neutral,neutral
+Pakaian untuk seminar bisnis?,kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam - pilih warna deep burgundy sebagai warna utama dan light grey sebagai aksen,0,pria,light
+Rekomendasi pakaian presentasi formal untuk cowok dengan kulit sawo matang?,kenakan blazer hitam dengan kemeja putih dan celana bahan gelap - pilih warna deep gold sebagai warna utama dan bright red sebagai aksen,2,pria,dark
+cewek berkulit sangat cerah sebaiknya mengenakan warna apa?,"Untuk cewek dengan kulit sangat cerah, warna yang sangat cocok adalah navy blue, royal purple. Sebaiknya hindari neon yellow, pale pastels karena kurang flattering untuk tone kulit Anda.",1,wanita,very_light
+"perempuan berkulit gelap mau ke rapat formal wanita, enaknya pakai baju apa?",kenakan dress formal dengan warna gelap dan aksesoris minimalis - pilih warna deep gold sebagai warna utama dan royal blue sebagai aksen,3,wanita,dark
+perempuan berkulit kulit gelap sebaiknya mengenakan warna apa?,"Untuk perempuan dengan kulit kulit gelap, warna yang sangat cocok adalah bright white, lime green. Sebaiknya hindari black, deep navy karena kurang flattering untuk tone kulit Anda.",3,wanita,very_dark
+Apa yang sebaiknya dipakai untuk jalan-jalan wanita?,gunakan dress maxi dengan warna cerah dan sandal nyaman - pilih warna electric blue sebagai warna utama dan gold sebagai aksen,7,wanita,dark
+"pria berkulit coklat mau ke presentasi formal, enaknya pakai baju apa?",gunakan setelan jas abu-abu dengan dasi merah dan sepatu pantofel hitam - pilih warna rust orange sebagai warna utama dan bright red sebagai aksen,2,pria,dark
+Bagaimana cara berpakaian untuk pria berkulit putih ke jalan-jalan santai?,padukan kemeja casual dengan chino pants dan sepatu sneakers - pilih warna lavender sebagai warna utama dan light grey sebagai aksen,4,pria,light
+"cowok berkulit kuning langsat mau ke jalan-jalan santai, enaknya pakai baju apa?",kenakan kaos dengan jeans dan sneakers casual - pilih warna pastel blue sebagai warna utama dan light grey sebagai aksen,4,pria,light
+Apa yang cocok untuk acara kantoran untuk laki-laki berkulit kuning langsat?,kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam - pilih warna deep burgundy sebagai warna utama dan light grey sebagai aksen,0,pria,light
+"Saya cewek dengan warna kulit kuning kecoklatan, warna apa yang flattering?","Untuk cewek dengan kulit kuning kecoklatan, warna yang sangat cocok adalah warm purple, teal. Sebaiknya hindari brown close to skin tone, muted pastel karena kurang flattering untuk tone kulit Anda.",3,wanita,medium
+Bagaimana cara berpakaian untuk wanita berkulit kuning langsat ke rapat formal wanita?,kenakan blazer dengan rok pensil dan sepatu heels - pilih warna royal purple sebagai warna utama dan silver sebagai aksen,1,wanita,light
+Rekomendasi pakaian presentasi formal untuk laki-laki dengan kulit gelap?,kenakan blazer hitam dengan kemeja putih dan celana bahan gelap - pilih warna terracotta sebagai warna utama dan copper sebagai aksen,2,pria,dark
+"Mau ke suasana gugur, sebaiknya pakai apa ya?",padukan jaket kulit dengan jeans dan boots,18,neutral,neutral
+Warna yang bagus untuk wanita berkulit sangat cerah?,"Untuk wanita dengan kulit sangat cerah, warna yang sangat cocok adalah emerald green, burgundy. Sebaiknya hindari pale pastels, light beige karena kurang flattering untuk tone kulit Anda.",1,wanita,very_light
+Apa yang cocok untuk seminar bisnis untuk cowok berkulit gelap?,gunakan setelan jas abu-abu dengan dasi merah dan sepatu pantofel hitam - pilih warna rust orange sebagai warna utama dan bronze sebagai aksen,2,pria,dark
+"Saya cewek berkulit gelap mau pergi ke acara formal wanita, sebaiknya pakai apa ya?",kenakan dress formal dengan warna gelap dan aksesoris minimalis - pilih warna deep gold sebagai warna utama dan bright red sebagai aksen,3,wanita,dark
+"perempuan berkulit kuning langsat mau ke nongkrong casual, enaknya pakai baju apa?",kenakan dress casual dengan flat shoes nyaman - pilih warna light pink sebagai warna utama dan soft pink sebagai aksen,5,wanita,light
+Kombinasi warna untuk laki-laki dengan kulit kuning kecoklatan?,"Untuk laki-laki dengan kulit kuning kecoklatan, warna yang sangat cocok adalah olive green, coral. Sebaiknya hindari brown close to skin tone, muted pastel karena kurang flattering untuk tone kulit Anda.",2,pria,medium
+"cewek berkulit gelap mau ke jalan-jalan wanita, enaknya pakai baju apa?",gunakan dress maxi dengan warna cerah dan sandal nyaman - pilih warna electric blue sebagai warna utama dan bright red sebagai aksen,7,wanita,dark
+Rekomendasi warna pakaian untuk cowok dengan tone kulit kuning langsat?,"Untuk cowok dengan kulit kuning langsat, warna yang sangat cocok adalah deep blue, plum. Sebaiknya hindari orange-yellow, bright orange karena kurang flattering untuk tone kulit Anda.",0,pria,light
+pria berkulit coklat sebaiknya mengenakan warna apa?,"Untuk pria dengan kulit coklat, warna yang sangat cocok adalah bright yellow, fuchsia. Sebaiknya hindari dark navy, muted earth tones karena kurang flattering untuk tone kulit Anda.",2,pria,dark
+laki-laki berkulit coklat sebaiknya mengenakan warna apa?,"Untuk laki-laki dengan kulit coklat, warna yang sangat cocok adalah cobalt blue, bright yellow. Sebaiknya hindari chocolate brown, muted earth tones karena kurang flattering untuk tone kulit Anda.",2,pria,dark
+Apa yang cocok untuk musim panas?,"Untuk musim panas, coba kenakan kaos ringan dengan celana pendek dan sandal.",8,neutral,neutral
+Bagaimana cara berpakaian untuk cewek berkulit putih ke jalan-jalan santai wanita?,padukan kaos dengan rok A-line dan sneakers - pilih warna pastel blue sebagai warna utama dan pearl white sebagai aksen,5,wanita,light
+"Saya wanita berkulit sawo matang mau pergi ke acara formal wanita, sebaiknya pakai apa ya?",gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi - pilih warna rust orange sebagai warna utama dan bronze sebagai aksen,3,wanita,dark
+"Saya perempuan dengan warna kulit putih, warna apa yang flattering?","Untuk perempuan dengan kulit putih, warna yang sangat cocok adalah berry tones, forest green. Sebaiknya hindari bright orange, orange-yellow karena kurang flattering untuk tone kulit Anda.",1,wanita,light
+Rekomendasi pakaian rapat formal untuk pria dengan kulit putih?,kombinasikan blazer gelap dengan kemeja light blue dan celana bahan - pilih warna forest green sebagai warna utama dan silver sebagai aksen,0,pria,light
+Outfit yang bagus untuk konferensi bisnis?,kombinasikan blazer navy dengan celana bahan hitam,10,neutral,neutral
+Rekomendasi pakaian presentasi formal untuk pria dengan kulit gelap?,gunakan setelan jas abu-abu dengan dasi merah dan sepatu pantofel hitam - pilih warna chocolate brown sebagai warna utama dan gold sebagai aksen,2,pria,dark
+"Saya cowok berkulit gelap mau pergi ke jalan santai pria, sebaiknya pakai apa ya?",gunakan t-shirt hitam dengan jeans biru dan sneakers putih - pilih warna bright yellow sebagai warna utama dan bright red sebagai aksen,6,pria,dark
+Apa yang cocok untuk jalan-jalan santai untuk cowok berkulit cerah?,padukan kemeja casual dengan chino pants dan sepatu sneakers - pilih warna lavender sebagai warna utama dan light grey sebagai aksen,4,pria,light
+Rekomendasi warna pakaian untuk cewek dengan tone kulit hitam manis?,"Untuk cewek dengan kulit hitam manis, warna yang sangat cocok adalah bright white, hot pink. Sebaiknya hindari black, dark brown karena kurang flattering untuk tone kulit Anda.",3,wanita,very_dark
+"Saya cewek dengan warna kulit putih pucat, warna apa yang flattering?","Untuk cewek dengan kulit putih pucat, warna yang sangat cocok adalah emerald green, royal purple. Sebaiknya hindari pale pastels, light beige karena kurang flattering untuk tone kulit Anda.",1,wanita,very_light
+Rekomendasi warna pakaian untuk perempuan dengan tone kulit cerah?,"Untuk perempuan dengan kulit cerah, warna yang sangat cocok adalah forest green, plum. Sebaiknya hindari beige, orange-yellow karena kurang flattering untuk tone kulit Anda.",1,wanita,light
+Apa yang sebaiknya dipakai untuk presentasi formal?,kenakan blazer hitam dengan kemeja putih dan celana bahan gelap - pilih warna terracotta sebagai warna utama dan copper sebagai aksen,2,pria,dark
+Outfit yang bagus untuk liburan musim dingin?,gunakan mantel dengan syal dan sepatu boots,16,neutral,neutral
+"Saya cowok dengan warna kulit cerah, warna apa yang flattering?","Untuk cowok dengan kulit cerah, warna yang sangat cocok adalah plum, berry tones. Sebaiknya hindari beige, bright orange karena kurang flattering untuk tone kulit Anda.",0,pria,light
+Apa yang cocok untuk rapat formal wanita untuk wanita berkulit sawo matang?,gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi - pilih warna olive green sebagai warna utama dan copper sebagai aksen,3,wanita,dark
+Apa yang cocok untuk angin kencang?,kenakan jaket windbreaker dengan celana panjang,14,neutral,neutral
+Warna yang bagus untuk cewek berkulit tan?,"Untuk cewek dengan kulit tan, warna yang sangat cocok adalah coral, warm purple. Sebaiknya hindari muted pastel, brown close to skin tone karena kurang flattering untuk tone kulit Anda.",3,wanita,medium
+"Saya laki-laki berkulit cerah mau pergi ke jalan-jalan santai, sebaiknya pakai apa ya?",kenakan kaos dengan jeans dan sneakers casual - pilih warna lavender sebagai warna utama dan rose gold sebagai aksen,4,pria,light
+Rekomendasi warna pakaian untuk pria dengan tone kulit kulit putih?,"Untuk pria dengan kulit kulit putih, warna yang sangat cocok adalah burgundy, royal purple. Sebaiknya hindari light beige, neon yellow karena kurang flattering untuk tone kulit Anda.",0,pria,very_light
+Rekomendasi warna pakaian untuk cewek dengan tone kulit kuning langsat?,"Untuk cewek dengan kulit kuning langsat, warna yang sangat cocok adalah plum, deep blue. Sebaiknya hindari orange-yellow, beige karena kurang flattering untuk tone kulit Anda.",1,wanita,light
+Apa yang cocok untuk acara formal wanita untuk perempuan berkulit sawo matang?,gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi - pilih warna olive green sebagai warna utama dan copper sebagai aksen,3,wanita,dark
+Pakaian untuk jalan-jalan santai wanita?,padukan kaos dengan rok A-line dan sneakers - pilih warna pastel blue sebagai warna utama dan pearl white sebagai aksen,5,wanita,light
+Outfit yang bagus untuk cewek dengan kulit gelap ke jalan-jalan wanita?,gunakan dress maxi dengan warna cerah dan sandal nyaman - pilih warna electric blue sebagai warna utama dan bronze sebagai aksen,7,wanita,dark
+"wanita berkulit cerah mau ke nongkrong casual, enaknya pakai baju apa?",kenakan dress casual dengan flat shoes nyaman - pilih warna lavender sebagai warna utama dan soft pink sebagai aksen,5,wanita,light
+Warna yang bagus untuk pria berkulit putih pucat?,"Untuk pria dengan kulit putih pucat, warna yang sangat cocok adalah royal purple, emerald green. Sebaiknya hindari pale pastels, neon yellow karena kurang flattering untuk tone kulit Anda.",0,pria,very_light
+Outfit untuk nongkrong malam wanita?,kombinasikan blouse casual dengan celana jeans dan sepatu flat - pilih warna electric blue sebagai warna utama dan bronze sebagai aksen,7,wanita,dark
+Warna apa yang cocok untuk cowok dengan kulit gelap?,"Untuk cowok dengan kulit gelap, warna yang sangat cocok adalah bright orange, bright yellow. Sebaiknya hindari dark navy, chocolate brown karena kurang flattering untuk tone kulit Anda.",2,pria,dark
+"Saya cowok dengan warna kulit sangat cerah, warna apa yang flattering?","Untuk cowok dengan kulit sangat cerah, warna yang sangat cocok adalah burgundy, emerald green. Sebaiknya hindari light beige, pale pastels karena kurang flattering untuk tone kulit Anda.",0,pria,very_light
+Rekomendasi pakaian acara formal wanita untuk wanita dengan kulit coklat?,gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi - pilih warna olive green sebagai warna utama dan gold sebagai aksen,3,wanita,dark
+Apa yang cocok untuk jalan-jalan santai untuk laki-laki berkulit putih?,kenakan kaos dengan jeans dan sneakers casual - pilih warna lavender sebagai warna utama dan pearl white sebagai aksen,4,pria,light
+Bagaimana cara berpakaian untuk cewek berkulit gelap ke jalan-jalan wanita?,kombinasikan blouse casual dengan celana jeans dan sepatu flat - pilih warna bright yellow sebagai warna utama dan royal blue sebagai aksen,7,wanita,dark
+Outfit yang bagus untuk party malam?,padukan kemeja fancy dengan celana formal,9,neutral,neutral
+Apa yang cocok untuk rapat formal untuk pria berkulit putih?,kombinasikan blazer gelap dengan kemeja light blue dan celana bahan - pilih warna deep burgundy sebagai warna utama dan silver sebagai aksen,0,pria,light
+"Mau ke gerimis, sebaiknya pakai apa ya?",kenakan jas hujan dengan sepatu anti air,13,neutral,neutral
+Warna yang bagus untuk perempuan berkulit tan?,"Untuk perempuan dengan kulit tan, warna yang sangat cocok adalah teal, olive green. Sebaiknya hindari brown close to skin tone, muted pastel karena kurang flattering untuk tone kulit Anda.",3,wanita,medium
+Apa yang cocok untuk resepsi nikah?,kenakan gaun panjang dengan heels dan clutch bag,8,neutral,neutral
+Rekomendasi pakaian rapat formal untuk laki-laki dengan kulit putih?,kombinasikan blazer gelap dengan kemeja light blue dan celana bahan - pilih warna navy blue sebagai warna utama dan silver sebagai aksen,0,pria,light
+Warna yang bagus untuk wanita berkulit kuning langsat?,"Untuk wanita dengan kulit kuning langsat, warna yang sangat cocok adalah plum, forest green. Sebaiknya hindari beige, orange-yellow karena kurang flattering untuk tone kulit Anda.",1,wanita,light
+Rekomendasi pakaian nongkrong di kafe untuk pria dengan kulit coklat?,padukan polo shirt dengan celana pendek khaki dan sandal santai - pilih warna coral sebagai warna utama dan copper sebagai aksen,6,pria,dark
+Rekomendasi pakaian jalan-jalan santai untuk cowok dengan kulit cerah?,kenakan kaos dengan jeans dan sneakers casual - pilih warna pastel blue sebagai warna utama dan light grey sebagai aksen,4,pria,light
+Apa yang cocok untuk rapat formal wanita untuk perempuan berkulit sawo matang?,gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi - pilih warna olive green sebagai warna utama dan copper sebagai aksen,3,wanita,dark
+Apa yang cocok untuk rapat bisnis?,gunakan setelan jas abu-abu dengan kemeja putih,10,neutral,neutral
+Outfit yang bagus untuk pria dengan kulit sawo matang ke jalan santai pria?,gunakan t-shirt hitam dengan jeans biru dan sneakers putih - pilih warna electric blue sebagai warna utama dan bright red sebagai aksen,6,pria,dark
+"Saya perempuan berkulit gelap mau pergi ke jalan-jalan wanita, sebaiknya pakai apa ya?",gunakan dress maxi dengan warna cerah dan sandal nyaman - pilih warna rich purple sebagai warna utama dan gold sebagai aksen,7,wanita,dark
+Kombinasi warna untuk cewek dengan kulit cerah?,"Untuk cewek dengan kulit cerah, warna yang sangat cocok adalah deep blue, forest green. Sebaiknya hindari orange-yellow, beige karena kurang flattering untuk tone kulit Anda.",1,wanita,light
+Bagaimana cara berpakaian untuk cewek berkulit coklat ke acara formal wanita?,kenakan dress formal dengan warna gelap dan aksesoris minimalis - pilih warna rust orange sebagai warna utama dan royal blue sebagai aksen,3,wanita,dark
+"Saya laki-laki berkulit kuning langsat mau pergi ke interview kerja, sebaiknya pakai apa ya?",kombinasikan blazer gelap dengan kemeja light blue dan celana bahan - pilih warna deep burgundy sebagai warna utama dan silver sebagai aksen,0,pria,light
+Bagaimana cara berpakaian untuk rapat bisnis?,kombinasikan blazer navy dengan celana bahan hitam,10,neutral,neutral
+"Saya laki-laki berkulit putih mau pergi ke presentasi perusahaan, sebaiknya pakai apa ya?",kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam - pilih warna deep burgundy sebagai warna utama dan silver sebagai aksen,0,pria,light
+Rekomendasi pakaian untuk resepsi nikah?,padukan kebaya modern dengan rok panjang dan selop,8,neutral,neutral
+Bagaimana cara berpakaian untuk perempuan berkulit gelap ke jalan-jalan wanita?,gunakan dress maxi dengan warna cerah dan sandal nyaman - pilih warna emerald green sebagai warna utama dan bright red sebagai aksen,7,wanita,dark
+Warna yang bagus untuk cowok berkulit sawo matang?,"Untuk cowok dengan kulit sawo matang, warna yang sangat cocok adalah bright yellow, cobalt blue. Sebaiknya hindari muted earth tones, dark navy karena kurang flattering untuk tone kulit Anda.",2,pria,dark
+"Saya cowok berkulit putih mau pergi ke acara kantoran, sebaiknya pakai apa ya?",kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam - pilih warna forest green sebagai warna utama dan pearl white sebagai aksen,0,pria,light
+Apa yang cocok untuk acara kantoran untuk laki-laki berkulit cerah?,kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam - pilih warna forest green sebagai warna utama dan pearl white sebagai aksen,0,pria,light
+Apa yang cocok untuk jalan-jalan santai wanita untuk perempuan berkulit putih?,padukan kaos dengan rok A-line dan sneakers - pilih warna powder blue sebagai warna utama dan silver sebagai aksen,5,wanita,light
+Rekomendasi pakaian untuk party malam?,kenakan dress party dengan aksesoris berkilau,9,neutral,neutral
+Rekomendasi pakaian acara formal wanita untuk cewek dengan kulit coklat?,gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi - pilih warna chocolate brown sebagai warna utama dan bright red sebagai aksen,3,wanita,dark
+"Saya laki-laki berkulit kuning langsat mau pergi ke rapat formal, sebaiknya pakai apa ya?",kombinasikan blazer gelap dengan kemeja light blue dan celana bahan - pilih warna navy blue sebagai warna utama dan soft pink sebagai aksen,0,pria,light
+Warna apa yang cocok untuk wanita dengan kulit sangat cerah?,"Untuk wanita dengan kulit sangat cerah, warna yang sangat cocok adalah burgundy, royal purple. Sebaiknya hindari pale pastels, neon yellow karena kurang flattering untuk tone kulit Anda.",1,wanita,very_light
+Warna apa yang cocok untuk cowok dengan kulit kulit putih?,"Untuk cowok dengan kulit kulit putih, warna yang sangat cocok adalah navy blue, royal purple. Sebaiknya hindari pale pastels, light beige karena kurang flattering untuk tone kulit Anda.",0,pria,very_light
+Rekomendasi pakaian seminar wanita untuk wanita dengan kulit putih?,padukan blus formal dengan celana bahan dan flat shoes formal - pilih warna royal purple sebagai warna utama dan light grey sebagai aksen,1,wanita,light
+"Mau ke konferensi bisnis, sebaiknya pakai apa ya?",gunakan setelan jas abu-abu dengan kemeja putih,10,neutral,neutral
+Rekomendasi warna pakaian untuk cewek dengan tone kulit sawo matang?,"Untuk cewek dengan kulit sawo matang, warna yang sangat cocok adalah bright orange, fuchsia. Sebaiknya hindari muted earth tones, chocolate brown karena kurang flattering untuk tone kulit Anda.",3,wanita,dark

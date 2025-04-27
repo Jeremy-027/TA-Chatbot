@@ -11,94 +11,33 @@ class IndoBERTFashionProcessor:
     def __init__(self, model_path):
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
         self.model = AutoModelForSequenceClassification.from_pretrained(model_path)
-
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model.to(self.device)
+        print(f"Using device: {self.device}")
 
+        # Define categories
         self.categories = {
-            0: "formal_pria",
-            1: "formal_wanita",
-            2: "kasual_pria",
-            3: "kasual_wanita",
-            4: "wedding",
-            5: "party",
-            6: "business_meeting",
-            7: "casual_outing",
-            8: "hot_weather",
-            9: "cold_weather",
-            10: "rainy_weather",
-            11: "windy_weather",
-            12: "summer",
-            13: "winter",
-            14: "spring",
-            15: "autumn",
-            16: "jackets",
-            17: "shoes",
-            18: "accessories",
+            0: "formal_pria_light",
+            1: "formal_wanita_light",
+            2: "formal_pria_dark",
+            3: "formal_wanita_dark",
+            4: "kasual_pria_light",
+            5: "kasual_wanita_light",
+            6: "kasual_pria_dark",
+            7: "kasual_wanita_dark",
+            8: "wedding",
+            9: "party",
+            10: "business_meeting",
+            11: "hot_weather",
+            12: "cold_weather",
+            13: "rainy_weather",
+            14: "windy_weather",
+            15: "summer",
+            16: "winter",
+            17: "spring",
+            18: "autumn",
             19: "other",
         }
-
-        self.responses = {
-            "formal_pria": [
-                "Untuk acara formal, saya rekomendasikan setelan jas navy blue dengan kemeja putih.",
-                "Kenakan kemeja putih dengan celana bahan hitam dan sepatu pantofel.",
-                "Kombinasikan blazer dengan kemeja polos dan celana bahan.",
-            ],
-            "formal_wanita": [
-                "Untuk acara formal, saya sarankan blazer dengan rok pensil atau celana bahan.",
-                "Kenakan blus formal dengan rok atau celana bahan.",
-                "Padukan blazer dengan dress formal dan sepatu hak.",
-            ],
-            "business_meeting": [
-                "Untuk meeting, kenakan setelan jas dengan dasi dan sepatu formal.",
-                "Padukan blazer navy dengan kemeja light blue dan celana bahan.",
-                "Kenakan kemeja lengan panjang dengan celana bahan dan sepatu formal.",
-            ],
-            "kasual_pria": [
-                "Untuk kasual, coba kenakan polo shirt dengan chino pants.",
-                "Kombinasikan kemeja casual dengan jeans dan sneakers.",
-                "Kenakan t-shirt dengan celana pendek dan sepatu casual.",
-            ],
-            "kasual_wanita": [
-                "Untuk kasual, kenakan blus dengan jeans dan flat shoes.",
-                "Padukan dress casual dengan cardigan dan sneakers.",
-                "Kombinasikan kaos dengan rok A-line dan sepatu nyaman.",
-            ],
-            "wedding": [
-                "Untuk pernikahan, saya sarankan dress formal dengan warna pastel dan sepatu hak tinggi.",
-                "Kenakan setelan jas dengan dasi dan sepatu formal untuk pernikahan.",
-                "Padukan gaun panjang dengan clutch dan perhiasan minimalis.",
-            ],
-            "party": [
-                "Untuk pesta, coba kenakan dress berwarna cerah dengan aksesoris yang mencolok.",
-                "Kenakan kemeja kasual dengan celana jeans dan sepatu sneakers untuk pesta santai.",
-                "Padukan blus berkilau dengan rok atau celana hitam untuk pesta malam.",
-            ],
-            "other": [
-                "Untuk acara tersebut, saya sarankan pakaian yang rapi dan nyaman seperti kemeja dengan celana bahan.",
-                "Kenakan pakaian yang sesuai dengan formalitas acara, seperti blazer dengan kemeja dan celana bahan.",
-                "Padukan atasan dan bawahan yang senada dengan sepatu yang sesuai acara.",
-            ],
-        }
-
-    def classify_intent(self, text):
-        try:
-            inputs = self.preprocess_text(text)
-            with torch.no_grad():
-                outputs = self.model(**inputs)
-                predictions = torch.softmax(outputs.logits, dim=1)
-                category_id = torch.argmax(predictions, dim=1).item()
-                confidence = predictions[0][category_id].item()
-
-                # Debug print
-                print(
-                    f"Detected intent: {self.categories.get(category_id)} (confidence: {confidence:.2f})"
-                )
-
-                return self.categories.get(category_id, "other")
-        except Exception as e:
-            logger.error(f"Error in intent classification: {str(e)}")
-            return "other"
 
     def preprocess_text(self, text):
         encoding = self.tokenizer(
@@ -111,34 +50,89 @@ class IndoBERTFashionProcessor:
         )
         return encoding.to(self.device)
 
+
+def classify_intent(self, text):
+    try:
+        inputs = self.preprocess_text(text)
+        with torch.no_grad():
+            outputs = self.model(**inputs)
+            predictions = torch.softmax(outputs.logits, dim=1)
+
+            # Get top 2 predictions
+            values, indices = torch.topk(predictions, 2)
+
+            category_id = indices[0][0].item()
+            confidence = values[0][0].item()
+
+            # If confidence is too low, try to determine from keywords
+            if confidence < 0.5:
+                category_id = self._keyword_fallback(text)
+
+            print(f"\nDetected intent: {self.categories[category_id]}")
+            print(f"Confidence: {confidence:.2f}")
+            return category_id
+
+    except Exception as e:
+        logger.error(f"Error in intent classification: {str(e)}")
+        return 19
+
+    def _keyword_fallback(self, text):
+        """Fallback method using keywords when confidence is low"""
+        text = text.lower()
+
+        # Weather keywords
+        if any(word in text for word in ["panas", "gerah", "terik"]):
+            return 11  # hot_weather
+        if any(word in text for word in ["dingin", "sejuk"]):
+            return 12  # cold_weather
+        if any(word in text for word in ["hujan", "gerimis"]):
+            return 13  # rainy_weather
+
+        # Event keywords
+        if "pesta" in text:
+            return 9  # party
+        if any(word in text for word in ["nikah", "pernikahan", "wedding"]):
+            return 8  # wedding
+        if any(word in text for word in ["interview", "wawancara"]):
+            if "wanita" in text:
+                return 1  # formal_wanita
+            return 0  # formal_pria
+
+        return 19  # oth
+
     def analyze_sentiment(self, text):
-        # For simplicity, return neutral sentiment
-        return 1
+        return 1  # Default neutral sentiment
 
     def generate_response(self, text, intent, sentiment):
         try:
-            # Debug print
-            print(f"Generating response for intent: {intent}")
-
-            # Check if we have specific responses for this intent
-            if intent in self.responses:
-                return np.random.choice(self.responses[intent])
-
-            # Map similar intents
-            intent_mapping = {
-                "seminar": "formal_pria",
-                "meeting": "business_meeting",
-                "presentasi": "business_meeting",
-                "interview": "formal_pria",
+            # Predefined responses based on intent
+            responses = {
+                0: "Untuk pria berkulit cerah, kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam.",
+                1: "Untuk wanita berkulit cerah, kenakan blazer dengan rok pensil dan sepatu heels.",
+                2: "Untuk pria berkulit sawo matang, gunakan setelan jas abu-abu dengan dasi merah dan sepatu pantofel hitam.",
+                3: "Untuk wanita berkulit sawo matang, gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi.",
+                4: "Untuk pria berkulit cerah, kenakan kaos dengan jeans dan sneakers casual.",
+                5: "Untuk wanita berkulit cerah, kenakan dress casual dengan flat shoes nyaman.",
+                6: "Untuk pria berkulit sawo matang, gunakan t-shirt hitam dengan jeans biru dan sneakers putih.",
+                7: "Untuk wanita berkulit sawo matang, kombinasikan blouse casual dengan celana jeans dan sepatu flat.",
+                8: "Untuk acara pernikahan, kenakan gaun panjang dengan heels dan clutch bag.",
+                9: "Untuk pesta, kenakan dress party dengan aksesoris berkilau.",
+                10: "Untuk rapat bisnis, gunakan setelan jas abu-abu dengan kemeja putih.",
+                11: "Untuk cuaca panas, kenakan pakaian berbahan katun yang menyerap keringat.",
+                12: "Untuk cuaca dingin, kenakan sweater tebal dengan celana panjang.",
+                13: "Untuk cuaca hujan, kenakan jas hujan dengan sepatu anti air.",
+                14: "Untuk cuaca berangin, kenakan jaket windbreaker dengan celana panjang.",
+                15: "Untuk musim panas, kenakan kaos ringan dengan celana pendek dan sandal.",
+                16: "Untuk musim dingin, kenakan jaket tebal dengan celana wool.",
+                17: "Untuk musim semi, kenakan dress floral dengan cardigan ringan.",
+                18: "Untuk musim gugur, kenakan sweater rajut dengan celana panjang.",
+                19: "Pilih pakaian yang sesuai dengan acara dan nyaman digunakan.",
             }
 
-            # Check for keywords in the text and map to appropriate intent
-            for keyword, mapped_intent in intent_mapping.items():
-                if keyword in text.lower() and mapped_intent in self.responses:
-                    return np.random.choice(self.responses[mapped_intent])
-
-            # If no specific response is found, return a default response
-            return np.random.choice(self.responses["other"])
+            return responses.get(
+                intent,
+                "Maaf, bisakah Anda menjelaskan lebih detail tentang jenis pakaian yang Anda cari?",
+            )
 
         except Exception as e:
             logger.error(f"Error generating response: {str(e)}")
