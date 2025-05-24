@@ -1,0 +1,10 @@
+{
+  "timestamp": "20250514_210302",
+  "total_queries": 28,
+  "success_rate": 100.0,
+  "average_total_processing_time": 0.02867997544152396,
+  "average_nlp_processing_time": 0.028537026473454068,
+  "average_response_generation_time": 0.00014294896806989397,
+  "percent_valid_json": 100.0,
+  "model_load_time": 3.3693249225616455
+}

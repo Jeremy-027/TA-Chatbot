@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 import os
 
 # Load the combined dataset
-df = pd.read_csv("data/processed/combined_dataset.csv")
+df = pd.read_csv("data/processed/combined_enhanced_dataset.csv")
 print(f"Total dataset size: {len(df)}")
 
 # Print label distribution
@@ -14,7 +14,9 @@ for label, count in label_counts.items():
     print(f"Label {label}: {count} examples")
 
 # Split without stratification since we have too few examples in some classes
-train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
+train_df, test_df = train_test_split(
+    df, test_size=0.2, random_state=42, stratify=df["label"]
+)
 
 print(f"\nTraining set size: {len(train_df)}")
 print(f"Testing set size: {len(test_df)}")

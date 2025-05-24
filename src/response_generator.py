@@ -131,8 +131,9 @@ class ResponseGenerator:
         weather = parameters.get("weather", None)
 
         recommendation = self.fashion_mapping.get_recommendation(parameters)
-        clothing_json = generate_clothing_selection(text)
-        # Determine style based on occasion
+        text_response = self.fashion_mapping.format_recommendation(
+            recommendation, parameters
+        )
         style = self._determine_style(occasion)
 
         # Get base clothing items based on gender and style
@@ -155,9 +156,11 @@ class ResponseGenerator:
         )
 
         # Add skin tone specific color advice
-        if skin_tone in self.avoid_colors:
-            avoid = random.choice(self.avoid_colors[skin_tone])
+        if parameters.get("skin_tone") in self.avoid_colors:
+            avoid = random.choice(self.avoid_colors[parameters["skin_tone"]])
             response += f" Hindari warna {avoid} karena kurang flattering untuk tone kulit Anda."
+
+        clothing_json = generate_clothing_selection(parameters)
 
         return response, clothing_json
 

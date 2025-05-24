@@ -1,0 +1,45 @@
+{
+  "timestamp": "20250514_201403",
+  "total_files": 15,
+  "successful_recognitions": 12,
+  "success_rate": 0.8,
+  "average_wer": 0.23238095238095233,
+  "average_processing_time": 2.3205049991607667,
+  "category_results": {
+    "basic": {
+      "total": 3,
+      "success_rate": 0.6666666666666666,
+      "average_wer": 0.28095238095238095
+    },
+    "accent": {
+      "total": 2,
+      "success_rate": 1.0,
+      "average_wer": 0.21428571428571427
+    },
+    "speed": {
+      "total": 2,
+      "success_rate": 1.0,
+      "average_wer": 0.14285714285714285
+    },
+    "noise": {
+      "total": 2,
+      "success_rate": 1.0,
+      "average_wer": 0.14285714285714285
+    },
+    "edge": {
+      "total": 2,
+      "success_rate": 0.0,
+      "average_wer": 0.5357142857142857
+    },
+    "eq": {
+      "total": 2,
+      "success_rate": 1.0,
+      "average_wer": 0.14285714285714285
+    },
+    "distance": {
+      "total": 2,
+      "success_rate": 1.0,
+      "average_wer": 0.14285714285714285
+    }
+  }
+}

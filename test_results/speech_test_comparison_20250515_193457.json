@@ -1,0 +1,17 @@
+{
+  "timestamp": "20250515_193457",
+  "extreme_test": {
+    "success_rate": 0.6304347826086957,
+    "average_wer": 0.33060731538992405,
+    "processing_time": 2.490552871123604
+  },
+  "real_world_test": {
+    "success_rate": 1.0,
+    "average_wer": 0.18872354497354496,
+    "processing_time": 2.2198530435562134
+  },
+  "difference": {
+    "success_rate_diff": 0.3695652173913043,
+    "wer_diff": 0.1418837704163791
+  }
+}

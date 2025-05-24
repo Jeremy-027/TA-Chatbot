@@ -95,26 +95,30 @@ class AzureFashionChatbot:
 
     def process_input(self, text):
         if not text:
-            return (
-                "Maaf, bisakah Anda mengulangi?",
-                True,
-            )  # Second parameter indicates if it's an error
+            return "Maaf, bisakah Anda mengulangi?", True, None
 
         if any(
             word in text.lower()
             for word in ["keluar", "selesai", "quit", "exit", "stop"]
         ):
-            return "KELUAR", False
+            return "KELUAR", False, None
 
         try:
-            intent = self.nlp_processor.classify_intent(text)
+            intent_id = self.nlp_processor.classify_intent(text)
             sentiment = self.nlp_processor.analyze_sentiment(text)
-            response = self.nlp_processor.generate_response(text, intent, sentiment)
-            return response, False
+            text_response, clothing_json = self.nlp_processor.generate_response(
+                text, intent_id, sentiment
+            )
+
+            # Save the JSON to a file
+            with open("last_recommendation.json", "w") as f:
+                f.write(clothing_json)
+
+            return text_response, False, clothing_json
         except Exception as e:
             error_msg = "Maaf, terjadi kesalahan dalam memproses permintaan Anda."
             print(f"Error in process_input: {str(e)}")
-            return error_msg, True
+            return error_msg, True, None
 
     def run(self):
         try:
@@ -133,13 +137,21 @@ class AzureFashionChatbot:
                 if not user_input:
                     continue
 
-                response, is_error = self.process_input(user_input)
+                response, is_error, clothing_json = self.process_input(user_input)
+
+                if clothing_json:
+                    # Print the JSON separately, not for speech
+                    print("\nOutput JSON for 3D visualization:")
+                    print(clothing_json)
+
                 if response == "KELUAR":
                     farewell = (
                         "Terima kasih telah menggunakan Fashion Chatbot. Sampai jumpa!"
                     )
                     self.text_to_speech(farewell)
                     break
+
+                print(f"Asisten: {response}")
 
                 self.text_to_speech(response, is_error)
 

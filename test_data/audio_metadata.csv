@@ -1,0 +1,72 @@
+filename,expected_text,category,duration_seconds,background_noise,accent,speaking_speed,eq_profile,distance
+basic/basic_formal_interview.wav,Saya mencari baju formal untuk interview kerja,basic,3.4,none,standard,normal,neutral,medium
+basic/basic_formal_meeting.wav,Rekomendasi pakaian untuk meeting kantor,basic,3.6,none,standard,normal,neutral,medium
+basic/basic_casual_outfit.wav,Pakaian kasual untuk jalan-jalan di mall,basic,3.3,none,standard,normal,neutral,medium
+accent/accent_javanese_formal.wav,Saya mencari baju formal untuk interview kerja,accent,3.9,none,javanese,normal,neutral,medium
+accent/accent_sundanese_formal.wav,Saya mencari baju formal untuk interview kerja,accent,3.8,none,sundanese,normal,neutral,medium
+speed/speed_slow_formal.wav,Saya mencari baju formal untuk interview kerja,speed,9.1,none,standard,slow,neutral,medium
+speed/speed_fast_formal.wav,Saya mencari baju formal untuk interview kerja,speed,2.6,none,standard,fast,neutral,medium
+noise/noise_cafe_formal.wav,Saya mencari baju formal untuk interview kerja,noise,3.3,cafe,standard,normal,neutral,medium
+noise/noise_street_formal.wav,Saya mencari baju formal untuk interview kerja,noise,3.9,street,standard,normal,neutral,medium
+edge/edge_short_query.wav,Baju pesta?,edge,1.5,none,standard,normal,neutral,medium
+edge/edge_mixed_language.wav,Mau outfit yang casual chic untuk hangout,edge,4.0,none,standard,normal,neutral,medium
+eq/eq_neutral_formal.wav,Saya mencari baju formal untuk interview kerja,eq,2.7,none,standard,normal,neutral,medium
+eq/eq_bass_formal.wav,Saya mencari baju formal untuk interview kerja,eq,2.7,none,standard,normal,bass-heavy,medium
+distance/distance_close_formal.wav,Saya mencari baju formal untuk interview kerja,distance,3.0,none,standard,normal,neutral,close
+distance/distance_far_formal.wav,Saya mencari baju formal untuk interview kerja,distance,3.2,none,standard,normal,neutral,far
+accent\accent_balinese_casual.wav,Pakaian kasual untuk jalan-jalan di mall,accent,2.6,none,balinese,normal,neutral,medium
+accent\accent_batak_casual.wav,Pakaian kasual untuk jalan-jalan di mall,accent,3.0,none,batak,normal,neutral,medium
+accent\accent_betawi_weather.wav,Baju yang cocok untuk cuaca panas,accent,2.4,none,betawi,normal,neutral,medium
+accent\accent_javanese_formal.wav,Saya mencari baju formal untuk interview kerja,accent,3.9,none,javanese,normal,neutral,medium
+accent\accent_sundanese_formal.wav,Saya mencari baju formal untuk interview kerja,accent,3.8,none,sundanese,normal,neutral,medium
+basic\basic_casual_hangout.wav,Outfit santai untuk nongkrong dengan teman,basic,3.3,none,standard,normal,neutral,medium
+basic\basic_casual_outfit.wav,Pakaian kasual untuk jalan-jalan di mall,basic,3.3,none,standard,normal,neutral,medium
+basic\basic_formal_interview.wav,Saya mencari baju formal untuk interview kerja,basic,3.4,none,standard,normal,neutral,medium
+basic\basic_formal_meeting.wav,Rekomendasi pakaian untuk meeting kanto,basic,3.6,none,standard,normal,neutral,medium
+basic\basic_season_summer.wav,Fashion untuk musim panas,basic,3.1,none,standard,normal,neutral,medium
+basic\basic_skin_tone_dark.wav,Pakaian yang cocok untuk kulit sawo matang,basic,3.5,none,standard,normal,neutral,medium
+basic\basic_skin_tone_light.wav,Rekomendasi untuk kulit cerah,basic,3.0,none,standard,normal,neutral,medium
+basic\basic_weather_cold.wav,Pakaian untuk cuaca dingin,basic,2.5,none,standard,normal,neutral,medium
+basic\basic_weather_hot.wav,Baju yang cocok untuk cuaca panas,basic,3.0,none,standard,normal,neutral,medium
+basic\basic_weather_rainy.wav,Outfit untuk musim hujan,basic,2.5,none,standard,normal,neutral,medium
+distance\distance_close_casual.wav,Pakaian kasual untuk jalan-jalan di mall,distance,2.5,none,standard,normal,neutral,close
+distance\distance_close_formal.wav,Saya mencari baju formal untuk interview kerja,distance,3.0,none,standard,normal,neutral,close
+distance\distance_far_casual.wav,Pakaian kasual untuk jalan-jalan di mall,distance,3.0,none,standard,normal,neutral,far
+distance\distance_far_formal.wav,Saya mencari baju formal untuk interview kerja,distance,3.2,none,standard,normal,neutral,far
+distance\distance_medium_formal.wav,Saya mencari baju formal untuk interview kerja,distance,3.0,none,standard,normal,neutral,medium
+edge\edge_fashion_slang.wav,Rekomendasi outfit OOTD yang kece,edge,4.1,none,standard,normal,neutral,medium
+edge\edge_interrupted.wav,Saya mencari baju uh eh untuk untuk pakaian kerja ,edge,5.0,none,standard,normal,neutral,medium
+edge\edge_mixed_language.wav,Rekomendasi outfit kasual untuk hangout,edge,4.0,none,standard,normal,neutral,medium
+edge\edge_short_query.wav,Baju pesta?,edge,1.5,none,standard,normal,neutral,medium
+edge\edge_very_quiet.wav,Pakaian kasual untuk jalan-jalan,edge,3.3,none,standard,normal,neutral,medium
+eq\eq_bass_formal.wav,Saya mencari baju formal untuk interview kerja,eq,2.7,none,standard,normal,bass,medium
+eq\eq_muffled_casual.wav,Pakaian kasual untuk jalan-jalan di mall,eq,2.9,none,standard,normal,muffled,medium
+eq\eq_neutral_formal.wav,Saya mencari baju formal untuk interview kerja,eq,2.7,none,standard,normal,neutral,medium
+eq\eq_presence_weather.wav,Baju yang cocok untuk cuaca panas,eq,2.5,none,standard,normal,presence,medium
+eq\eq_telephone_casual.wav,Pakaian kasual untuk jalan-jalan di mall,eq,2.9,none,standard,normal,telephone,medium
+eq\eq_treble_formal.wav,Saya mencari baju formal untuk interview kerja,eq,2.7,none,standard,normal,treble,medium
+noise\noise_cafe_formal.wav,Saya mencari baju formal untuk interview kerja,noise,3.3,cafe,standard,normal,neutral,medium
+noise\noise_crowd_casual.wav,Pakaian kasual untuk jalan-jalan di mall,noise,3.5,crowd,standard,normal,neutral,medium
+noise\noise_mall_weather.wav,Baju yang cocok untuk cuaca panas,noise,3.2,mall,standard,normal,neutral,medium
+noise\noise_music_casual.wav,Pakaian kasual untuk jalan-jalan di mall,noise,3.3,music,standard,normal,neutral,medium
+noise\noise_rain_weather.wav,Outfit untuk musim hujan,noise,3.7,rain,standard,normal,neutral,medium
+noise\noise_street_formal.wav,Saya mencari baju formal untuk interview kerja,noise,3.9,street,standard,normal,neutral,medium
+noise\noise_tv_skin.wav,Pakaian yang cocok untuk kulit sawo matang,noise,3.3,tv,standard,normal,neutral,medium
+noise\noise_typing_formal.wav,Rekomendasi pakaian untuk meeting kantor,noise,4.0,typing,standard,normal,neutral,medium
+speed\speed_fast_casual.wav,Pakaian kasual untuk jalan-jalan di mall,speed,2.5,none,standard,fast,neutral,medium
+speed\speed_fast_formal.wav,Saya mencari baju formal untuk interview kerja,speed,2.6,none,standard,fast,neutral,medium
+speed\speed_normal_formal.wav,Saya mencari baju formal untuk interview kerja,speed,3.7,none,standard,normal,neutral,medium
+speed\speed_slow_casual.wav,Pakaian kasual untuk jalan-jalan di mall,speed,7.3,none,standard,slow,neutral,medium
+speed\speed_slow_formal.wav,Saya mencari baju formal untuk interview kerja,speed,9.1,none,standard,slow,neutral,medium
+real_world\rw_accessory_match.wav,Aksesoris apa yang cocok dengan kemeja putih,real_world,3.4,minimal,standard,normal,neutral,optimal
+real_world\rw_casual_outfit.wav,Rekomendasi pakaian kasual untuk jalan-jalan,real_world,3.4,minimal,standard,normal,neutral,optimal
+real_world\rw_female_casual.wav,Pakaian santai untuk wanita berkulit cerah,real_world,3.1,minimal,standard,normal,neutral,optimal
+real_world\rw_formal_interview.wav,Saya mencari baju formal untuk interview kerja,real_world,3.2,minimal,standard,normal,neutral,optimal
+real_world\rw_hot_weather.wav,Baju apa yang cocok untuk cuaca panas,real_world,3.0,minimal,standard,normal,neutral,optimal
+real_world\rw_male_interview.wav,Saya pria mau ke interview kerja sebaiknya pakai apa,real_world,3.5,minimal,standard,normal,neutral,optimal
+real_world\rw_male_trends.wav,Fashion yang sedang trend untuk pria,real_world,3.2,minimal,standard,normal,neutral,optimal
+real_world\rw_office_attire.wav,Rekomendasi pakaian untuk ke kantor,real_world,3.2,minimal,standard,normal,neutral,optimal
+real_world\rw_rainy_season.wav,Baju yang cocok untuk musim hujan,real_world,2.7,minimal,standard,normal,neutral,optimal
+real_world\rw_skin_tone_color.wav,Warna apa yang bagus untuk kulit sawo matang,real_world,2.9,minimal,standard,normal,neutral,optimal
+real_world\rw_style_mixing.wav,Cara mix and match kemeja biru,real_world,2.7,minimal,standard,normal,neutral,optimal
+real_world\rw_wedding_outfit.wav,Outfit untuk ke pesta pernikahan teman,real_world,2.7,minimal,standard,normal,neutral,optimal

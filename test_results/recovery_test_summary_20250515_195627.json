@@ -1,0 +1,35 @@
+{
+  "timestamp": "20250515_195627",
+  "scenarios_tested": 5,
+  "successful_recoveries": 5,
+  "recovery_success_rate": 100.0,
+  "functional_after_recovery_rate": 100.0,
+  "average_recovery_time": 1.27715163230896,
+  "scenario_details": {
+    "cold_start": {
+      "recovered": true,
+      "recovery_time": 3.1923868656158447,
+      "functional_after": true
+    },
+    "speech_service_down": {
+      "recovered": true,
+      "recovery_time": 0.4449324607849121,
+      "functional_after": true
+    },
+    "model_crash": {
+      "recovered": true,
+      "recovery_time": 0.4954860210418701,
+      "functional_after": true
+    },
+    "memory_pressure": {
+      "recovered": true,
+      "recovery_time": 0.5518600940704346,
+      "functional_after": true
+    },
+    "high_cpu_load": {
+      "recovered": true,
+      "recovery_time": 1.7010927200317383,
+      "functional_after": true
+    }
+  }
+}

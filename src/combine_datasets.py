@@ -1,6 +1,6 @@
 # src/combine_datasets.py
 import pandas as pd
-from dataset_generator import FashionDatasetGenerator
+from src.enhanced_dataset_generator import FashionDatasetGenerator
 import os
 
 # Create directories if they don't exist

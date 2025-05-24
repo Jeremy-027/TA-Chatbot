@@ -1,0 +1,47 @@
+filename,category,expected_text,recognized_text,wer,is_success,processing_time,status
+accent/accent_javanese_formal.wav,accent,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.4433603286743164,ResultReason.RecognizedSpeech
+accent/accent_sundanese_formal.wav,accent,Saya mencari baju formal untuk interview kerja,Saya mencari wajah formal untuk interview kerja.,0.2857142857142857,True,2.2453627586364746,ResultReason.RecognizedSpeech
+speed/speed_slow_formal.wav,speed,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.90840482711792,ResultReason.RecognizedSpeech
+speed/speed_fast_formal.wav,speed,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.20400071144104,ResultReason.RecognizedSpeech
+noise/noise_cafe_formal.wav,noise,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.216981887817383,ResultReason.RecognizedSpeech
+noise/noise_street_formal.wav,noise,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.2616219520568848,ResultReason.RecognizedSpeech
+edge/edge_short_query.wav,edge,Baju pesta?,Baju pesta.,0.5,False,1.9345369338989258,ResultReason.RecognizedSpeech
+edge/edge_mixed_language.wav,edge,Mau outfit yang casual chic untuk hangout,Rekomendasi outfit casual untuk hangout.,0.5714285714285714,False,2.423881769180298,ResultReason.RecognizedSpeech
+eq/eq_neutral_formal.wav,eq,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.2502708435058594,ResultReason.RecognizedSpeech
+eq/eq_bass_formal.wav,eq,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.2448596954345703,ResultReason.RecognizedSpeech
+distance/distance_close_formal.wav,distance,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.1603801250457764,ResultReason.RecognizedSpeech
+distance/distance_far_formal.wav,distance,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.274045944213867,ResultReason.RecognizedSpeech
+accent\accent_balinese_casual.wav,accent,Pakaian casual untuk jalan-jalan di mall,Pakaian kasual untuk jalan jalan di mall.,0.6666666666666666,False,2.1001908779144287,ResultReason.RecognizedSpeech
+accent\accent_batak_casual.wav,accent,Pakaian casual untuk jalan-jalan di mall,Pakaian kasual untuk jalan jalan di mal.,0.6666666666666666,False,2.209686517715454,ResultReason.RecognizedSpeech
+accent\accent_betawi_weather.wav,accent,Baju yang cocok untuk cuaca panas,Ujang cocok untuk cukup panas.,0.6666666666666666,False,2.0341086387634277,ResultReason.RecognizedSpeech
+accent\accent_javanese_formal.wav,accent,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.398643970489502,ResultReason.RecognizedSpeech
+accent\accent_sundanese_formal.wav,accent,Saya mencari baju formal untuk interview kerja,Saya mencari wajah formal untuk interview kerja.,0.2857142857142857,True,2.301093339920044,ResultReason.RecognizedSpeech
+distance\distance_close_casual.wav,distance,Pakaian casual untuk jalan-jalan di mall,Pakaian casual untuk jalan jalan di mal.,0.5,False,2.066131830215454,ResultReason.RecognizedSpeech
+distance\distance_close_formal.wav,distance,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.2253572940826416,ResultReason.RecognizedSpeech
+distance\distance_far_casual.wav,distance,Pakaian casual untuk jalan-jalan di mall,Pakaian casual untuk jalan jalan di mal.,0.5,False,2.3126943111419678,ResultReason.RecognizedSpeech
+distance\distance_far_formal.wav,distance,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.2037839889526367,ResultReason.RecognizedSpeech
+distance\distance_medium_formal.wav,distance,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.323979139328003,ResultReason.RecognizedSpeech
+edge\edge_fashion_slang.wav,edge,Rekomendasi outfit OOTD yang kece,Rekomendasi outfit OOTD yang kece.,0.2,True,2.4489355087280273,ResultReason.RecognizedSpeech
+edge\edge_interrupted.wav,edge,Saya mencari baju uh eh untuk untuk pakaian kerja ,Saya mencari baju eh untuk untuk pakaian kerja.,0.2222222222222222,True,2.5913584232330322,ResultReason.RecognizedSpeech
+edge\edge_mixed_language.wav,edge,Rekomendasi outfit casual untuk hangout,Rekomendasi outfit casual untuk hangout.,0.2,True,2.297532558441162,ResultReason.RecognizedSpeech
+edge\edge_short_query.wav,edge,Baju pesta?,Baju pesta.,0.5,False,1.9073758125305176,ResultReason.RecognizedSpeech
+edge\edge_very_quiet.wav,edge,Pakaian casual untuk jalan-jalan,Pakaian kasual untuk jalan jalan.,0.75,False,2.205627679824829,ResultReason.RecognizedSpeech
+eq\eq_bass_formal.wav,eq,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.194027900695801,ResultReason.RecognizedSpeech
+eq\eq_muffled_casual.wav,eq,Pakaian casual untuk jalan-jalan di mall,Pakaian casual untuk jalan jalan di mall.,0.5,False,2.1103532314300537,ResultReason.RecognizedSpeech
+eq\eq_neutral_formal.wav,eq,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.145737886428833,ResultReason.RecognizedSpeech
+eq\eq_presence_weather.wav,eq,Baju yang cocok untuk cuaca panas,Baju yang cocok untuk cuaca panas.,0.16666666666666666,True,2.045409679412842,ResultReason.RecognizedSpeech
+eq\eq_telephone_casual.wav,eq,Pakaian casual untuk jalan-jalan di mall,Pakaian casual untuk jalan jalan di mall.,0.5,False,2.2290239334106445,ResultReason.RecognizedSpeech
+eq\eq_treble_formal.wav,eq,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.232881784439087,ResultReason.RecognizedSpeech
+noise\noise_cafe_formal.wav,noise,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.3711068630218506,ResultReason.RecognizedSpeech
+noise\noise_crowd_casual.wav,noise,Pakaian casual untuk jalan-jalan di mall,Pakaian kasual untuk jalan jalan di mal.,0.6666666666666666,False,2.247727870941162,ResultReason.RecognizedSpeech
+noise\noise_mall_weather.wav,noise,Baju yang cocok untuk cuaca panas,Baju yang cocok untuk cuaca panas.,0.16666666666666666,True,2.2168710231781006,ResultReason.RecognizedSpeech
+noise\noise_music_casual.wav,noise,Pakaian casual untuk jalan-jalan di mall,Pakaian casual untuk jalan jalan di mal.,0.5,False,2.1696343421936035,ResultReason.RecognizedSpeech
+noise\noise_rain_weather.wav,noise,Outfit untuk musim hujan,Pakaian yang cocok untuk musim hujan.,1.0,False,2.1547787189483643,ResultReason.RecognizedSpeech
+noise\noise_street_formal.wav,noise,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.262579917907715,ResultReason.RecognizedSpeech
+noise\noise_tv_skin.wav,noise,Pakaian yang cocok untuk kulit sawo matang,Pakaian yang cocok untuk kulit sawo matang.,0.14285714285714285,True,2.263746500015259,ResultReason.RecognizedSpeech
+noise\noise_typing_formal.wav,noise,Rekomendasi pakaian untuk meeting kantor,Rekomendasi pakaian yang cocok untuk meeting kantor.,0.6,False,2.265397548675537,ResultReason.RecognizedSpeech
+speed\speed_fast_casual.wav,speed,Pakaian casual untuk jalan-jalan di mall,Pakaian casual untuk jalan jalan di mal.,0.5,False,2.0750787258148193,ResultReason.RecognizedSpeech
+speed\speed_fast_formal.wav,speed,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.1553337574005127,ResultReason.RecognizedSpeech
+speed\speed_normal_formal.wav,speed,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.2862935066223145,ResultReason.RecognizedSpeech
+speed\speed_slow_casual.wav,speed,Pakaian casual untuk jalan-jalan di mall,Pakaian kasual untuk jalan jalan di mal.,0.6666666666666666,False,2.6812026500701904,ResultReason.RecognizedSpeech
+speed\speed_slow_formal.wav,speed,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.970642328262329,ResultReason.RecognizedSpeech

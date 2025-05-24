@@ -1,0 +1,28 @@
+{
+  "timestamp": "20250514_210640",
+  "speech_recognition": {
+    "accuracy": 0.006440677966101694,
+    "average_wer": 0.3235001345170837,
+    "processing_time": 2.2608819411972823
+  },
+  "nlp_intent_classification": {
+    "accuracy": 0.82,
+    "processing_time": 0.021206514835357668
+  },
+  "response_generation": {
+    "recommendation_rate": 0.0,
+    "json_validity": 1.0,
+    "processing_time": 6.281811258067256e-06
+  },
+  "end_to_end": {
+    "success_rate": 1.0,
+    "total_processing_time": 0.02867997544152396
+  },
+  "system_load": {
+    "throughput": 47.666666666666664,
+    "success_rate": 1.0,
+    "p95_processing_time": 0.052842080593109124,
+    "max_cpu_usage": 11.1,
+    "max_memory_usage": 946.90625
+  }
+}

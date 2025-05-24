@@ -3,6 +3,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import numpy as np
 import logging
+from response_generator import ResponseGenerator
 
 logger = logging.getLogger(__name__)
 
@@ -13,6 +14,7 @@ class IndoBERTFashionProcessor:
         self.model = AutoModelForSequenceClassification.from_pretrained(model_path)
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model.to(self.device)
+        self.response_generator = ResponseGenerator()  # Add this line
         print(f"Using device: {self.device}")
 
         # Define categories
@@ -50,35 +52,44 @@ class IndoBERTFashionProcessor:
         )
         return encoding.to(self.device)
 
+    def classify_intent(self, text):  # THIS LINE NEEDS TO BE INDENTED
+        try:
+            inputs = self.preprocess_text(text)
+            with torch.no_grad():
+                outputs = self.model(**inputs)
+                predictions = torch.softmax(outputs.logits, dim=1)
 
-def classify_intent(self, text):
-    try:
-        inputs = self.preprocess_text(text)
-        with torch.no_grad():
-            outputs = self.model(**inputs)
-            predictions = torch.softmax(outputs.logits, dim=1)
+                # Get top 2 predictions
+                values, indices = torch.topk(predictions, 2)
 
-            # Get top 2 predictions
-            values, indices = torch.topk(predictions, 2)
+                category_id = indices[0][0].item()
+                confidence = values[0][0].item()
 
-            category_id = indices[0][0].item()
-            confidence = values[0][0].item()
+                # If confidence is too low, try to determine from keywords
+                if confidence < 0.5:
+                    category_id = self._keyword_fallback(text)
 
-            # If confidence is too low, try to determine from keywords
-            if confidence < 0.5:
-                category_id = self._keyword_fallback(text)
+                print(f"\nDetected intent: {self.categories[category_id]}")
+                print(f"Confidence: {confidence:.2f}")
+                return category_id
 
-            print(f"\nDetected intent: {self.categories[category_id]}")
-            print(f"Confidence: {confidence:.2f}")
-            return category_id
-
-    except Exception as e:
-        logger.error(f"Error in intent classification: {str(e)}")
-        return 19
+        except Exception as e:
+            logger.error(f"Error in intent classification: {str(e)}")
+            return 19
 
     def _keyword_fallback(self, text):
         """Fallback method using keywords when confidence is low"""
         text = text.lower()
+
+        # Season keywords
+        if any(word in text for word in ["musim panas", "summer"]):
+            return 15  # summer
+        if any(word in text for word in ["musim dingin", "winter"]):
+            return 16  # winter
+        if any(word in text for word in ["musim semi", "spring"]):
+            return 17  # spring
+        if any(word in text for word in ["musim gugur", "autumn", "fall"]):
+            return 18  # autumn
 
         # Weather keywords
         if any(word in text for word in ["panas", "gerah", "terik"]):
@@ -98,42 +109,92 @@ def classify_intent(self, text):
                 return 1  # formal_wanita
             return 0  # formal_pria
 
-        return 19  # oth
+        return 19  # other
 
     def analyze_sentiment(self, text):
         return 1  # Default neutral sentiment
 
-    def generate_response(self, text, intent, sentiment):
+    def generate_response(self, text, intent_id, sentiment):
         try:
-            # Predefined responses based on intent
-            responses = {
-                0: "Untuk pria berkulit cerah, kenakan setelan jas navy blue dengan kemeja putih dan sepatu pantofel hitam.",
-                1: "Untuk wanita berkulit cerah, kenakan blazer dengan rok pensil dan sepatu heels.",
-                2: "Untuk pria berkulit sawo matang, gunakan setelan jas abu-abu dengan dasi merah dan sepatu pantofel hitam.",
-                3: "Untuk wanita berkulit sawo matang, gunakan setelan blazer pastel dengan rok midi dan sepatu hak tinggi.",
-                4: "Untuk pria berkulit cerah, kenakan kaos dengan jeans dan sneakers casual.",
-                5: "Untuk wanita berkulit cerah, kenakan dress casual dengan flat shoes nyaman.",
-                6: "Untuk pria berkulit sawo matang, gunakan t-shirt hitam dengan jeans biru dan sneakers putih.",
-                7: "Untuk wanita berkulit sawo matang, kombinasikan blouse casual dengan celana jeans dan sepatu flat.",
-                8: "Untuk acara pernikahan, kenakan gaun panjang dengan heels dan clutch bag.",
-                9: "Untuk pesta, kenakan dress party dengan aksesoris berkilau.",
-                10: "Untuk rapat bisnis, gunakan setelan jas abu-abu dengan kemeja putih.",
-                11: "Untuk cuaca panas, kenakan pakaian berbahan katun yang menyerap keringat.",
-                12: "Untuk cuaca dingin, kenakan sweater tebal dengan celana panjang.",
-                13: "Untuk cuaca hujan, kenakan jas hujan dengan sepatu anti air.",
-                14: "Untuk cuaca berangin, kenakan jaket windbreaker dengan celana panjang.",
-                15: "Untuk musim panas, kenakan kaos ringan dengan celana pendek dan sandal.",
-                16: "Untuk musim dingin, kenakan jaket tebal dengan celana wool.",
-                17: "Untuk musim semi, kenakan dress floral dengan cardigan ringan.",
-                18: "Untuk musim gugur, kenakan sweater rajut dengan celana panjang.",
-                19: "Pilih pakaian yang sesuai dengan acara dan nyaman digunakan.",
-            }
+            # Extract parameters from intent
+            intent_name = self.categories[intent_id]
 
-            return responses.get(
-                intent,
-                "Maaf, bisakah Anda menjelaskan lebih detail tentang jenis pakaian yang Anda cari?",
+            # Parse intent to get parameters
+            parameters = self.extract_parameters_from_intent(intent_name, text)
+
+            # Use ResponseGenerator to generate the response
+            text_response, clothing_json = self.response_generator.generate_response(
+                parameters
             )
+
+            return text_response, clothing_json
 
         except Exception as e:
             logger.error(f"Error generating response: {str(e)}")
-            return "Maaf, bisakah Anda mengulangi pertanyaan Anda?"
+            return "Maaf, bisakah Anda mengulangi pertanyaan Anda?", "{}"
+
+    def extract_parameters_from_intent(self, intent_name, text):
+        """Extract parameters from intent and text"""
+        parameters = {}
+
+        # Extract from intent name (e.g., "formal_pria_light")
+        parts = intent_name.split("_")
+
+        # Determine occasion
+        if parts[0] in ["formal", "kasual"]:
+            parameters["occasion"] = parts[0]
+        elif intent_name in ["wedding", "party", "business_meeting"]:
+            parameters["occasion"] = intent_name
+        elif "weather" in intent_name:
+            parameters["weather"] = intent_name.replace("_weather", "")
+        elif intent_name in ["summer", "winter", "spring", "autumn"]:
+            parameters["season"] = intent_name
+
+        # Also check text for season mentions if not already found
+        if "season" not in parameters:
+            if any(word in text.lower() for word in ["musim panas", "summer"]):
+                parameters["season"] = "summer"
+            elif any(word in text.lower() for word in ["musim dingin", "winter"]):
+                parameters["season"] = "winter"
+            elif any(word in text.lower() for word in ["musim semi", "spring"]):
+                parameters["season"] = "spring"
+            elif any(
+                word in text.lower() for word in ["musim gugur", "autumn", "fall"]
+            ):
+                parameters["season"] = "autumn"
+
+        # Extract gender from intent or text
+        if len(parts) > 1 and parts[1] in ["pria", "wanita"]:
+            parameters["gender"] = parts[1]
+        else:
+            # Try to extract from text
+            if any(word in text.lower() for word in ["pria", "laki-laki", "cowok"]):
+                parameters["gender"] = "pria"
+            elif any(word in text.lower() for word in ["wanita", "perempuan", "cewek"]):
+                parameters["gender"] = "wanita"
+
+        # Extract skin tone
+        if len(parts) > 2 and parts[2] in ["light", "dark"]:
+            parameters["skin_tone"] = parts[2]
+        else:
+            # Try to extract from text
+            if any(word in text.lower() for word in ["cerah", "putih"]):
+                parameters["skin_tone"] = "light"
+            elif any(
+                word in text.lower() for word in ["sawo matang", "gelap", "coklat"]
+            ):
+                parameters["skin_tone"] = "dark"
+
+        # Set defaults if not found
+        if "gender" not in parameters:
+            parameters["gender"] = "neutral"
+        if "skin_tone" not in parameters:
+            parameters["skin_tone"] = "neutral"
+        if (
+            "occasion" not in parameters
+            and "season" not in parameters
+            and "weather" not in parameters
+        ):
+            parameters["occasion"] = "casual"
+
+        return parameters

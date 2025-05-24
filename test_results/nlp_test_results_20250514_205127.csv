@@ -1,0 +1,101 @@
+query,expected_intent,predicted_intent,processing_time,is_correct
+Saya mencari baju formal untuk interview kerja,0,0,0.5965971946716309,True
+Rekomendasi pakaian formal untuk pria berkulit cerah,0,0,0.016345739364624023,True
+Baju apa yang cocok untuk pria dengan kulit putih ke acara formal?,0,0,0.017066001892089844,True
+Outfit formal untuk laki-laki dengan kulit terang,0,2,0.015614509582519531,False
+Pakaian kantor untuk cowok berkulit cerah,0,0,0.013901710510253906,True
+"Saya wanita berkulit cerah, mau ke interview",1,1,0.012928009033203125,True
+Rekomendasi baju formal untuk perempuan kulit putih,1,1,0.013682126998901367,True
+Pakaian kerja untuk wanita kulit cerah,1,1,0.014778614044189453,True
+Baju formal apa yang cocok untuk cewek berkulit terang?,1,19,0.014817237854003906,False
+Outfit kantor untuk wanita dengan kulit putih,1,1,0.013007640838623047,True
+Baju formal untuk pria berkulit sawo matang,2,2,0.01412057876586914,True
+Pakaian kerja untuk laki-laki dengan kulit gelap,2,2,0.014917612075805664,True
+Rekomendasi outfit formal pria kulit coklat,2,2,0.015934467315673828,True
+Saya pria berkulit gelap mau ke interview,2,2,0.016187429428100586,True
+Baju kantor untuk cowok sawo matang,2,2,0.018773794174194336,True
+Pakaian formal untuk wanita berkulit sawo matang,3,3,0.014411211013793945,True
+Baju kerja untuk perempuan kulit gelap,3,3,0.01370859146118164,True
+Rekomendasi outfit formal untuk cewek berkulit coklat,3,3,0.0415952205657959,True
+"Saya wanita dengan kulit gelap, mau ke meeting",3,3,0.022064924240112305,True
+Baju kantor untuk wanita sawo matang,3,3,0.029116153717041016,True
+Pakaian santai untuk pria berkulit cerah,4,4,0.01728534698486328,True
+Baju casual cowok kulit putih,4,4,0.016689300537109375,True
+Outfit santai untuk laki-laki dengan kulit terang,4,6,0.017121553421020508,False
+Rekomendasi baju hangout untuk pria berkulit cerah,4,4,0.02003192901611328,True
+Pakaian jalan-jalan untuk cowok kulit putih,4,4,0.023321151733398438,True
+Baju santai untuk wanita berkulit cerah,5,5,0.019801855087280273,True
+Outfit casual untuk cewek kulit putih,5,5,0.014980316162109375,True
+Pakaian jalan-jalan untuk perempuan berkulit terang,5,19,0.012840986251831055,False
+Rekomendasi baju hangout untuk wanita kulit cerah,5,5,0.017097949981689453,True
+Baju santai apa yang cocok untuk cewek berkulit terang?,5,5,0.015434741973876953,True
+Pakaian santai untuk pria berkulit sawo matang,6,2,0.012302160263061523,False
+Baju casual untuk cowok kulit gelap,6,6,0.013089895248413086,True
+Outfit hangout untuk laki-laki dengan kulit coklat,6,6,0.013120889663696289,True
+Rekomendasi baju santai pria berkulit gelap,6,6,0.012158393859863281,True
+Pakaian jalan-jalan untuk cowok sawo matang,6,6,0.017795324325561523,True
+Baju santai untuk wanita berkulit sawo matang,7,7,0.01622319221496582,True
+Outfit casual untuk cewek kulit gelap,7,7,0.015012979507446289,True
+Pakaian jalan-jalan untuk perempuan berkulit coklat,7,7,0.0158846378326416,True
+Rekomendasi baju hangout untuk wanita kulit gelap,7,7,0.01371908187866211,True
+Baju santai apa yang cocok untuk cewek sawo matang?,7,7,0.01514434814453125,True
+Baju untuk ke pernikahan,8,8,0.01620316505432129,True
+Outfit yang cocok untuk acara wedding,8,8,0.01539468765258789,True
+Pakaian untuk menghadiri resepsi pernikahan,8,8,0.01710677146911621,True
+Rekomendasi baju untuk ke pesta nikah,8,8,0.014412641525268555,True
+Baju apa yang cocok untuk acara akad nikah?,8,8,0.013183355331420898,True
+Outfit untuk ke pesta ulang tahun,9,9,0.018248558044433594,True
+Baju pesta malam yang bagus,9,9,0.01887345314025879,True
+Pakaian untuk cocktail party,9,9,0.018835067749023438,True
+Rekomendasi outfit untuk pesta tahun baru,9,9,0.01475214958190918,True
+Baju yang cocok untuk pesta formal,9,9,0.01796889305114746,True
+Pakaian untuk meeting bisnis,10,1,0.012701272964477539,False
+Outfit untuk rapat dengan klien,10,1,0.023366928100585938,False
+Baju yang cocok untuk presentasi bisnis,10,1,0.012500286102294922,False
+Rekomendasi pakaian untuk rapat direksi,10,10,0.016340017318725586,True
+Baju untuk business lunch,10,10,0.013402938842773438,True
+Baju untuk cuaca panas,11,11,0.01746225357055664,True
+Pakaian yang nyaman di hari yang terik,11,11,0.015342950820922852,True
+Outfit untuk musim kemarau,11,11,0.016882896423339844,True
+Rekomendasi baju saat cuaca gerah,11,11,0.015722274780273438,True
+Pakaian yang sejuk untuk cuaca panas,11,11,0.015028238296508789,True
+Baju untuk cuaca dingin,12,12,0.014305591583251953,True
+Pakaian yang hangat untuk musim dingin,12,12,0.014869451522827148,True
+Outfit untuk ke pegunungan,12,11,0.013257980346679688,False
+Rekomendasi pakaian saat cuaca sejuk,12,11,0.012867212295532227,False
+Baju tebal untuk cuaca dingin,12,12,0.012301445007324219,True
+Baju untuk musim hujan,13,13,0.012108564376831055,True
+Pakaian yang cocok saat hujan,13,13,0.01264810562133789,True
+Outfit anti air untuk cuaca hujan,13,13,0.013061761856079102,True
+Rekomendasi baju untuk hari yang gerimis,13,13,0.01375579833984375,True
+Pakaian yang cocok untuk cuaca hujan,13,13,0.013187646865844727,True
+Baju untuk cuaca berangin,14,14,0.012997865676879883,True
+Pakaian yang cocok saat angin kencang,14,14,0.013721466064453125,True
+Outfit untuk hari yang berangin,14,14,0.012522459030151367,True
+Rekomendasi baju saat cuaca berangin,14,14,0.012887716293334961,True
+Pakaian yang tidak mudah terbawa angin,14,11,0.012557506561279297,False
+Baju untuk musim panas,15,15,0.013276338577270508,True
+Pakaian yang cocok untuk summer,15,15,0.013718128204345703,True
+Outfit musim panas yang nyaman,15,15,0.01858973503112793,True
+Rekomendasi baju untuk liburan musim panas,15,15,0.01377105712890625,True
+Pakaian yang trendy untuk musim panas,15,15,0.019765377044677734,True
+Baju untuk musim dingin,16,12,0.012827157974243164,False
+Pakaian hangat untuk winter,16,16,0.013492107391357422,True
+Outfit musim dingin yang stylish,16,12,0.013819217681884766,False
+Rekomendasi baju untuk liburan winter,16,16,0.02419734001159668,True
+Pakaian yang tebal untuk musim dingin,16,12,0.013805866241455078,False
+Baju untuk musim semi,17,17,0.01284933090209961,True
+Pakaian yang cocok untuk spring,17,17,0.014409542083740234,True
+Outfit musim semi yang stylish,17,17,0.013775825500488281,True
+Rekomendasi baju untuk musim bunga,17,19,0.01311945915222168,False
+Pakaian yang trendy untuk musim semi,17,17,0.012863874435424805,True
+Baju untuk musim gugur,18,18,0.012695074081420898,True
+Pakaian yang cocok untuk autumn,18,18,0.012758255004882812,True
+Outfit musim gugur yang stylish,18,18,0.013123273849487305,True
+Rekomendasi baju untuk fall season,18,18,0.01222372055053711,True
+Pakaian yang trendy untuk musim gugur,18,18,0.011874914169311523,True
+Bantu saya memilih baju,19,3,0.013485431671142578,False
+Apa warna yang sedang trend?,19,3,0.012762784957885742,False
+Bagaimana cara mix and match pakaian?,19,19,0.012220382690429688,True
+Tips fashion untuk pemula,19,3,0.012748003005981445,False
+Brand pakaian yang bagus,19,19,0.013075113296508789,True

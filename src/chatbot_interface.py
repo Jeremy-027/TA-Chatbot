@@ -1,8 +1,8 @@
 # src/chatbot_interface.py
 
-from language_model import IndoBERTFashionProcessor
-from response_generator import FashionResponseGenerator
-from clarification_module import ClarificationModule
+from src.language_model import IndoBERTFashionProcessor
+from src.response_generator import FashionResponseGenerator
+from src.clarification_module import ClarificationModule
 from color_selector import ColorSelector
 
 

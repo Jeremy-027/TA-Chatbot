@@ -1,0 +1,16 @@
+{
+  "parameters": {
+    "gender": "neutral",
+    "skin_tone": "neutral",
+    "occasion": "casual",
+    "weather": "rainy",
+    "season": null
+  },
+  "clothing": {
+    "top": "sweater rajut burgundy",
+    "bottom": "jeans indigo",
+    "shoes": "boat shoes",
+    "accessory": "jam tangan casual",
+    "color_main": "soft yellow"
+  }
+}

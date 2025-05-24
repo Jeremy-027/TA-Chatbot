@@ -1,0 +1,125 @@
+{
+  "timestamp": "20250514_210144",
+  "total_scenarios": 23,
+  "average_processing_time": 6.281811258067256e-06,
+  "percent_with_recommendation": 0.0,
+  "percent_with_color_advice": 100.0,
+  "percent_valid_json": 100.0,
+  "scenario_stats": {
+    "formal_male_light": {
+      "processing_time": 0.0,
+      "response_length": 479,
+      "json_valid": true
+    },
+    "formal_female_light": {
+      "processing_time": 0.0,
+      "response_length": 469,
+      "json_valid": true
+    },
+    "formal_male_dark": {
+      "processing_time": 0.0,
+      "response_length": 494,
+      "json_valid": true
+    },
+    "formal_female_dark": {
+      "processing_time": 0.0,
+      "response_length": 471,
+      "json_valid": true
+    },
+    "casual_male_light": {
+      "processing_time": 0.0,
+      "response_length": 471,
+      "json_valid": true
+    },
+    "casual_female_light": {
+      "processing_time": 0.0,
+      "response_length": 453,
+      "json_valid": true
+    },
+    "casual_male_dark": {
+      "processing_time": 0.0,
+      "response_length": 453,
+      "json_valid": true
+    },
+    "casual_female_dark": {
+      "processing_time": 0.0,
+      "response_length": 503,
+      "json_valid": true
+    },
+    "wedding": {
+      "processing_time": 0.0,
+      "response_length": 399,
+      "json_valid": true
+    },
+    "party": {
+      "processing_time": 0.0,
+      "response_length": 395,
+      "json_valid": true
+    },
+    "business_meeting": {
+      "processing_time": 0.0,
+      "response_length": 403,
+      "json_valid": true
+    },
+    "hot_weather": {
+      "processing_time": 0.0,
+      "response_length": 398,
+      "json_valid": true
+    },
+    "cold_weather": {
+      "processing_time": 0.0,
+      "response_length": 392,
+      "json_valid": true
+    },
+    "rainy_weather": {
+      "processing_time": 0.0,
+      "response_length": 399,
+      "json_valid": true
+    },
+    "windy_weather": {
+      "processing_time": 0.0,
+      "response_length": 399,
+      "json_valid": true
+    },
+    "summer": {
+      "processing_time": 0.0,
+      "response_length": 524,
+      "json_valid": true
+    },
+    "winter": {
+      "processing_time": 0.0,
+      "response_length": 510,
+      "json_valid": true
+    },
+    "spring": {
+      "processing_time": 0.0,
+      "response_length": 515,
+      "json_valid": true
+    },
+    "autumn": {
+      "processing_time": 0.0,
+      "response_length": 519,
+      "json_valid": true
+    },
+    "formal_male_light_cold": {
+      "processing_time": 0.0,
+      "response_length": 482,
+      "json_valid": true
+    },
+    "casual_female_dark_hot": {
+      "processing_time": 0.0,
+      "response_length": 498,
+      "json_valid": true
+    },
+    "wedding_summer": {
+      "processing_time": 0.0,
+      "response_length": 530,
+      "json_valid": true
+    },
+    "business_meeting_rainy": {
+      "processing_time": 0.00014448165893554688,
+      "response_length": 402,
+      "json_valid": true
+    }
+  }
+}

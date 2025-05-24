@@ -1,0 +1,16 @@
+{
+  "timestamp": "20250515_192923",
+  "test_type": "real_world",
+  "total_files": 12,
+  "successful_recognitions": 11,
+  "success_rate": 0.9166666666666666,
+  "average_wer": 0.20539021164021162,
+  "average_processing_time": 2.1951900521914163,
+  "category_results": {
+    "real_world": {
+      "total": 12,
+      "success_rate": 0.9166666666666666,
+      "average_wer": 0.20539021164021162
+    }
+  }
+}

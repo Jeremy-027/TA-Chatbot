@@ -1,4 +1,6 @@
 torch>=2.0.0
+torchvision
+torchaudio
 transformers>=4.30.0
 SpeechRecognition>=3.10.0
 pyttsx3>=2.90
@@ -13,3 +15,5 @@ pandas
 scikit-learn
 pyyaml
 logging
+matplotlib
+seaborn

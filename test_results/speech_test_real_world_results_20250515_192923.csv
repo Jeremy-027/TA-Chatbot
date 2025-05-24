@@ -1,0 +1,13 @@
+filename,category,expected_text,recognized_text,wer,is_success,processing_time,status
+real_world\rw_accessory_match.wav,real_world,Aksesoris apa yang cocok dengan kemeja putih,Aksesoris apa yang cocok dengan kemeja putih?,0.14285714285714285,True,2.2352402210235596,ResultReason.RecognizedSpeech
+real_world\rw_casual_outfit.wav,real_world,Rekomendasi pakaian casual untuk jalan-jalan,Rekomendasi pakaian kasual untuk jalan jalan.,0.6,False,2.3208565711975098,ResultReason.RecognizedSpeech
+real_world\rw_female_casual.wav,real_world,Pakaian santai untuk wanita berkulit cerah,Pakaian santai untuk wanita berkulit cerah.,0.16666666666666666,True,2.1534218788146973,ResultReason.RecognizedSpeech
+real_world\rw_formal_interview.wav,real_world,Saya mencari baju formal untuk interview kerja,Saya mencari baju formal untuk interview kerja.,0.14285714285714285,True,2.190223217010498,ResultReason.RecognizedSpeech
+real_world\rw_hot_weather.wav,real_world,Baju apa yang cocok untuk cuaca panas,Baju apa yang cocok untuk cuaca panas?,0.14285714285714285,True,2.1482250690460205,ResultReason.RecognizedSpeech
+real_world\rw_male_interview.wav,real_world,Saya pria mau ke interview kerja sebaiknya pakai apa,Saya pria mau ke interview kerja sebaiknya pakai apa.,0.1111111111111111,True,2.406101942062378,ResultReason.RecognizedSpeech
+real_world\rw_male_trends.wav,real_world,Fashion yang sedang trend untuk pria,Fashion yang sedang tren untuk pria.,0.3333333333333333,True,2.1827757358551025,ResultReason.RecognizedSpeech
+real_world\rw_office_attire.wav,real_world,Rekomendasi pakaian untuk ke kantor,Rekomendasi pakaian untuk ke kantor.,0.2,True,2.155336856842041,ResultReason.RecognizedSpeech
+real_world\rw_rainy_season.wav,real_world,Baju yang cocok untuk musim hujan,Baju yang cocok untuk musim hujan.,0.16666666666666666,True,2.090786933898926,ResultReason.RecognizedSpeech
+real_world\rw_skin_tone_color.wav,real_world,Warna apa yang bagus untuk kulit sawo matang,Warna apa yang bagus untuk kulit sawo matang?,0.125,True,2.2741236686706543,ResultReason.RecognizedSpeech
+real_world\rw_style_mixing.wav,real_world,Cara mix and match kemeja biru,Cara mix and match kemeja biru.,0.16666666666666666,True,2.088621139526367,ResultReason.RecognizedSpeech
+real_world\rw_wedding_outfit.wav,real_world,Outfit untuk ke pesta pernikahan teman,Outfit untuk ke pesta pernikahan teman.,0.16666666666666666,True,2.096567392349243,ResultReason.RecognizedSpeech

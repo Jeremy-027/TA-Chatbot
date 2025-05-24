@@ -1,0 +1,41 @@
+{
+  "timestamp": "20250515_193420",
+  "test_type": "extreme",
+  "total_files": 46,
+  "successful_recognitions": 29,
+  "success_rate": 0.6304347826086957,
+  "average_wer": 0.33060731538992405,
+  "average_processing_time": 2.490552871123604,
+  "category_results": {
+    "accent": {
+      "total": 7,
+      "success_rate": 0.5714285714285714,
+      "average_wer": 0.36054421768707484
+    },
+    "speed": {
+      "total": 7,
+      "success_rate": 0.7142857142857143,
+      "average_wer": 0.26870748299319724
+    },
+    "noise": {
+      "total": 10,
+      "success_rate": 0.6,
+      "average_wer": 0.36476190476190473
+    },
+    "edge": {
+      "total": 7,
+      "success_rate": 0.42857142857142855,
+      "average_wer": 0.4133786848072562
+    },
+    "eq": {
+      "total": 8,
+      "success_rate": 0.75,
+      "average_wer": 0.2767857142857143
+    },
+    "distance": {
+      "total": 7,
+      "success_rate": 0.7142857142857143,
+      "average_wer": 0.2925170068027211
+    }
+  }
+}

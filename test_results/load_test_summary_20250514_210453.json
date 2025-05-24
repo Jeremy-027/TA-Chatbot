@@ -1,0 +1,14 @@
+{
+  "timestamp": "20250514_210453",
+  "test_duration": 60,
+  "concurrent_users": 5,
+  "total_queries_processed": 2860,
+  "queries_per_second": 47.666666666666664,
+  "success_rate": 100.0,
+  "average_processing_time": 0.047321629357504676,
+  "p95_processing_time": 0.052842080593109124,
+  "max_cpu_usage": 11.1,
+  "avg_cpu_usage": 5.5,
+  "max_memory_usage_mb": 946.90625,
+  "final_memory_usage_mb": 946.546875
+}

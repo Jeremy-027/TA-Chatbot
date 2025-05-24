@@ -1,0 +1,6 @@
+scenario,recovered,recovery_time_seconds,functional_after_recovery
+cold_start,True,3.3350627422332764,True
+speech_service_down,True,0.34319305419921875,True
+model_crash,True,0.3502781391143799,True
+memory_pressure,True,0.4089686870574951,True
+high_cpu_load,True,1.1687090396881104,True
